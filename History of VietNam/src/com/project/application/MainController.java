@@ -2,6 +2,8 @@ package com.project.application;
 
 import java.io.IOException;
 
+import com.project.historydatabase.HistoryDatabase;
+
 import application.popup.details.DynastyDetails;
 import application.popup.details.FestivalDetails;
 import application.popup.details.FigureDetails;
@@ -23,57 +25,57 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
-import objects.dynasty.Dynasty;
-import objects.event.SuKien;
-import objects.festival.Festival;
-import objects.figure.Figure;
-import objects.figure.King;
-import objects.relic.Relic;
+
+import com.project.historydatabase.dynasty.Dynasty;
+import com.project.historydatabase.festival.Festival;
+import com.project.historydatabase.figure.Figure;
+import com.project.historydatabase.figure.King;
+import com.project.historydatabase.figure.Character;
+import com.project.historydatabase.relic.Relic;
+import com.project.historydatabase.event.Event;
 
 public class MainController {
 
     @FXML
-    private MenuItem menuItem1;
+    private MenuItem menuItemKing;
 
     @FXML
-    private MenuItem menuItem2;
+    private MenuItem menuItemCharacter;
 
     @FXML
-    private MenuItem menuItem3;
+    private MenuItem menuItemFestival;
+    
+    @FXML
+    private MenuItem menuItemDynasty;
+    
+    @FXML
+    private MenuItem menuItemRelic;
+    
+    @FXML
+    private MenuItem menuItemEvent;
 
     @FXML
     private BorderPane borderPane;
 
     @FXML
-    private MenuButton searchField;
+    private MenuButton menuBtnSearchField;
 
     @FXML
-    private TextField textField;
+    private TextField tfSearch;
 
-    // Xử lý sự kiện chọn trường để search
+    // Search field chosen
     @FXML
     void clickMenuItem(ActionEvent event) throws IOException {
         MenuItem menuItem = (MenuItem) event.getSource();
         String lableSelecItem = menuItem.getText();
 
-        searchField.setText(menuItem.getText());
+        menuBtnSearchField.setText(menuItem.getText());
 
-        ObservableList<Figure> listObservablesFigure = new ReadData<Figure>()
-                .FromJsonToArray("src/data/figureUpdate.json", Figure.class);
-        ObservableList<King> listObservablesKing = new ReadData<King>()
-                .FromJsonToArray("src/data/king.json", King.class);
-        ObservableList<Dynasty> listObservablesDynasty = new ReadData<Dynasty>()
-                .FromJsonToArray("src/data/dynasty.json", Dynasty.class);
-        ObservableList<Festival> listObservablesFestival = new ReadData<Festival>()
-                .FromJsonToArray("src/data/festival.json", Festival.class);
-        ObservableList<Relic> listObservablesRelic = new ReadData<Relic>()
-                .FromJsonToArray("src/data/relic.json", Relic.class);
-        ObservableList<SuKien> listObservablesSuKien = new ReadData<SuKien>()
-                .FromJsonToArray("src/data/event.json", SuKien.class);
+        HistoryDatabase.getHistoryDatabase();
 
         switch (lableSelecItem) {
-            case "Vua":
-                String[] nameColKing = { "Tên Vua", "Năm trị vì", "Miếu hiệu", "Thụy hiệu", "Niên hiệu" };
+            case "King":
+                String[] nameColKing = { "Name", "Năm trị vì", "Miếu hiệu", "Thụy hiệu", "Niên hiệu" };
                 String[] kingStr = { "ten", "namTriVi", "mieuHieu", "thuyHieu", "nienHieu" };
                 TableView<King> tableKingView = new TableViewCustom<King>().makTableView(
                         nameColKing, kingStr);
@@ -84,7 +86,7 @@ public class MainController {
                     }
                 });
                 Search<King> searchKing = new Search<King>();
-                tableKingView.setItems(searchKing.searchList(listObservablesKing, textField, King.class));
+                tableKingView.setItems(searchKing.searchList(listObservablesKing, tfSearch, King.class));
                 borderPane.setCenter(tableKingView);
                 break;
             case "Nhân Vật Lịch Sử":
@@ -99,7 +101,7 @@ public class MainController {
                     }
                 });
                 Search<Figure> searchFigure = new Search<Figure>();
-                tableFigureView.setItems(searchFigure.searchList(listObservablesFigure, textField, Figure.class));
+                tableFigureView.setItems(searchFigure.searchList(listObservablesFigure, tfSearch, Figure.class));
                 borderPane.setCenter(tableFigureView);
                 break;
             case "Sự kiện lịch sử":
@@ -114,7 +116,7 @@ public class MainController {
                     }
                 });
                 Search<SuKien> searchSuKien = new Search<SuKien>();
-                tableSuKienView.setItems(searchSuKien.searchList(listObservablesSuKien, textField, SuKien.class));
+                tableSuKienView.setItems(searchSuKien.searchList(listObservablesSuKien, tfSearch, SuKien.class));
                 borderPane.setCenter(tableSuKienView);
                 break;
 
@@ -131,7 +133,7 @@ public class MainController {
                     }
                 });
                 Search<Relic> searchRelic = new Search<Relic>();
-                tableRelicView.setItems(searchRelic.searchList(listObservablesRelic, textField, Relic.class));
+                tableRelicView.setItems(searchRelic.searchList(listObservablesRelic, tfSearch, Relic.class));
                 borderPane.setCenter(tableRelicView);
                 break;
             case "Lễ Hội Văn Hóa":
@@ -148,7 +150,7 @@ public class MainController {
                 });
                 Search<Festival> searchFestival = new Search<Festival>();
                 tableFestivalView
-                        .setItems(searchFestival.searchList(listObservablesFestival, textField, Festival.class));
+                        .setItems(searchFestival.searchList(listObservablesFestival, tfSearch, Festival.class));
                 borderPane.setCenter(tableFestivalView);
                 break;
             case "Triều Đại Lịch Sử":
@@ -163,7 +165,7 @@ public class MainController {
                     }
                 });
                 Search<Dynasty> searchDynasty = new Search<Dynasty>();
-                tableDynastyView.setItems(searchDynasty.searchList(listObservablesDynasty, textField, Dynasty.class));
+                tableDynastyView.setItems(searchDynasty.searchList(listObservablesDynasty, tfSearch, Dynasty.class));
                 borderPane.setCenter(tableDynastyView);
                 break;
             default:
