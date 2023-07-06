@@ -1,14 +1,18 @@
 package com.project.historydatabase.figure;
 
-public class Figure {
+public abstract class Figure {
     protected String namSinh;
     protected String namMat;
     protected String ten;
 
-    public Figure(String namSinh, String namMat, String ten) {
+    public Figure(String ten, String namSinh, String namMat) {
         this.namSinh = namSinh;
         this.namMat = namMat;
         this.ten = ten;
+    }
+    
+    public Figure(String ten) {
+    	this.ten = ten;
     }
 
     public String getNamSinh() {

@@ -1,24 +1,36 @@
 package com.project.historydatabase.figure;
 
 public class King extends Figure {
+	private String paperURL;
     private String mieuHieu;
     private String thuyHieu;
     private String nienHieu;
     private String tenHuy;
     private String theThu;
-    private int namTriVi;
+    private String namTriVi;
+    
+	public King(String ten, String namSinh, String namMat, String paperURL, String mieuHieu, String thuyHieu, String nienHieu, String tenHuy, String theThu, String namTriVi) {
+		super(ten, namSinh, namMat);
+		this.paperURL = paperURL;
+		this.mieuHieu = mieuHieu;
+		this.thuyHieu = thuyHieu;
+		this.nienHieu = nienHieu;
+		this.tenHuy = tenHuy;
+		this.theThu = theThu;
+		this.namTriVi = namTriVi;
+	}
 
-    public King(int namSinh, int namMat, String ten, String mieuHieu, String thuyHieu, String nienHieu, String tenHuy, String theThu, int namTriVi) {
-    	super(ten, namSinh, namMat);
-        this.mieuHieu = mieuHieu;
-        this.thuyHieu = thuyHieu;
-        this.nienHieu = nienHieu;
-        this.tenHuy = tenHuy;
-        this.theThu = theThu;
-        this.namTriVi = namTriVi;
-    }
-
-
+	public King(String paperURL, String mieuHieu, String thuyHieu, String nienHieu, String tenHuy, String theThu, String namTriVi, String ten) {
+		super(ten);
+		this.paperURL = paperURL;
+		this.mieuHieu = mieuHieu;
+		this.thuyHieu = thuyHieu;
+		this.nienHieu = nienHieu;
+		this.tenHuy = tenHuy;
+		this.theThu = theThu;
+		this.namTriVi = namTriVi;
+	}
+    
     public String getMieuHieu() {
         return mieuHieu;
     }
@@ -59,11 +71,11 @@ public class King extends Figure {
         this.theThu = theThu;
     }
 
-    public int getNamTriVi() {
+    public String getNamTriVi() {
         return namTriVi;
     }
 
-    public void setNamTriVi(int namTriVi) {
+    public void setNamTriVi(String namTriVi) {
         this.namTriVi = namTriVi;
     }
 }
