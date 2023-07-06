@@ -13,5 +13,5 @@ Project of OOP-141182 course
 	* ArtifactId: ```hust.cybersec.project```
 	* Library:
 		*.Jsoup
-		* Gson
+		* org.json
 		* Javafx (Note: add modules **javafx.controls,javafx.fxml** into **VM argument**)
