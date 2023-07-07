@@ -75,7 +75,7 @@ public class MainController {
 
         switch (lableSelecItem) {
             case "King":
-                String[] nameColKing = { "Name", "Năm trị vì", "Miếu hiệu", "Thụy hiệu", "Niên hiệu" };
+                String[] nameColKing = { "Tên ", "Năm trị vì", "Miếu hiệu", "Thụy hiệu", "Niên hiệu" };
                 String[] kingStr = { "ten", "namTriVi", "mieuHieu", "thuyHieu", "nienHieu" };
                 TableView<King> tableKingView = new TableViewCustom<King>().makTableView(
                         nameColKing, kingStr);
