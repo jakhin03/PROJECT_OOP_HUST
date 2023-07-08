@@ -1,12 +1,12 @@
 package com.project.historydatabase.festival;
 
-import com.project.historydatabase.figure.*;
+import com.project.historydatabase.figure.Character;
 
 public class Festival {
 	private String tenLeHoi;
 	private String thoigian;
 	private String diaDiem;
-	private Figure figure;
+	private Character character;
 	private String noiDung;
 
 	public Festival(String tenLehoi, String thoiGian, String diaDiem) {
@@ -39,12 +39,12 @@ public class Festival {
 		this.diaDiem = diaDiem;
 	}
 
-	public Figure getFigure() {
-		return figure;
+	public Character getCharacter() {
+		return character;
 	}
 
-	public void setFigure(Figure figure) {
-		this.figure = figure;
+	public void setCharacter(Character character) {
+		this.character = character;
 	}
 
 	public String getNoiDung() {

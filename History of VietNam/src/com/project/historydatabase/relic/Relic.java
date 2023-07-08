@@ -3,7 +3,7 @@ package com.project.historydatabase.relic;
 import java.util.LinkedList;
 
 import com.project.historydatabase.dynasty.Dynasty;
-import com.project.historydatabase.figure.Figure;
+import com.project.historydatabase.figure.Character;
 import com.project.historydatabase.figure.King;
 
 public class Relic{
@@ -11,9 +11,9 @@ public class Relic{
 	private String type;
 	private String rank;
 	private String desc;
-	private LinkedList<Figure> figures;
+	private LinkedList<Character> characters;
 	private LinkedList<King> kings;
-	private LinkedList<Dynasty> dynastys;
+	private LinkedList<Dynasty> dynasties;
 	private String name;
 	
 	public String getName() {
@@ -24,12 +24,12 @@ public class Relic{
 		this.name = name;
 	}
 	
-	public LinkedList<Figure> getFigures() {
-		return figures;
+	public LinkedList<Character> getCharacters() {
+		return characters;
 	}
 
-	public void setFigures(LinkedList<Figure> figures) {
-		this.figures = figures;
+	public void setCharacters(LinkedList<Character> characters) {
+		this.characters = characters;
 	}
 
 	public LinkedList<King> getKings() {
@@ -64,12 +64,12 @@ public class Relic{
 		this.desc = desc;
 	}
 
-	public LinkedList<Dynasty> getDynastys() {
-		return dynastys;
+	public LinkedList<Dynasty> getDynasties() {
+		return dynasties;
 	}
 
-	public void setDynastys(LinkedList<Dynasty> dynastys) {
-		this.dynastys = dynastys;
+	public void setDynasties(LinkedList<Dynasty> dynasties) {
+		this.dynasties = dynasties;
 	}
 
 	public void setType(String type) {
@@ -80,16 +80,16 @@ public class Relic{
 		this.rank = rank;
 	}
 
-	public Relic(String name, String location, String type, String rank, String desc, LinkedList<Figure> figures,
-			LinkedList<King> kings, LinkedList<Dynasty> dynastys) {
+	public Relic(String name, String location, String type, String rank, String desc, LinkedList<Character> characters,
+			LinkedList<King> kings, LinkedList<Dynasty> dynasties) {
 		super();
 		this.name = name;
 		this.location = location;
 		this.type = type;
 		this.rank = rank;
 		this.desc = desc;
-		this.figures = figures;
+		this.characters = characters;
 		this.kings = kings;
-		this.dynastys = dynastys;
+		this.dynasties = dynasties;
 	}
 }

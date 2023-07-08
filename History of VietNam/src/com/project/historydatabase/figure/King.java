@@ -1,17 +1,21 @@
 package com.project.historydatabase.figure;
 
 public class King extends Figure {
-	private String paperURL;
     private String mieuHieu;
     private String thuyHieu;
     private String nienHieu;
     private String tenHuy;
     private String theThu;
     private String namTriVi;
+    private String articleLink;
+    
+    public King() {
+    	
+    }
     
 	public King(String ten, String namSinh, String namMat, String paperURL, String mieuHieu, String thuyHieu, String nienHieu, String tenHuy, String theThu, String namTriVi) {
 		super(ten, namSinh, namMat);
-		this.paperURL = paperURL;
+		this.articleLink = articleLink;
 		this.mieuHieu = mieuHieu;
 		this.thuyHieu = thuyHieu;
 		this.nienHieu = nienHieu;
@@ -22,7 +26,7 @@ public class King extends Figure {
 
 	public King(String paperURL, String mieuHieu, String thuyHieu, String nienHieu, String tenHuy, String theThu, String namTriVi, String ten) {
 		super(ten);
-		this.paperURL = paperURL;
+		this.articleLink = articleLink;
 		this.mieuHieu = mieuHieu;
 		this.thuyHieu = thuyHieu;
 		this.nienHieu = nienHieu;
@@ -78,5 +82,14 @@ public class King extends Figure {
     public void setNamTriVi(String namTriVi) {
         this.namTriVi = namTriVi;
     }
+
+	public String getArticleLink() {
+		return articleLink;
+	}
+
+	public void setArticleLink(String articleLink) {
+		this.articleLink = articleLink;
+	}
+    
 }
 
