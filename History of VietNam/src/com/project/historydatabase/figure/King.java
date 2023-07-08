@@ -9,6 +9,10 @@ public class King extends Figure {
     private String namTriVi;
     private String articleLink;
     
+    public King() {
+    	
+    }
+    
 	public King(String ten, String namSinh, String namMat, String paperURL, String mieuHieu, String thuyHieu, String nienHieu, String tenHuy, String theThu, String namTriVi) {
 		super(ten, namSinh, namMat);
 		this.articleLink = articleLink;

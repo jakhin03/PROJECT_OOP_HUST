@@ -4,6 +4,10 @@ public abstract class Figure {
     protected String namSinh;
     protected String namMat;
     protected String ten;
+    
+    public Figure() {
+    	
+    }
 
     public Figure(String ten, String namSinh, String namMat) {
         this.namSinh = namSinh;

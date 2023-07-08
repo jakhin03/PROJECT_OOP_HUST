@@ -107,68 +107,99 @@ public class HistoryGUI {
         borderPane.setBottom(moreInforContainer);
         BorderPane.setAlignment(moreInforContainer, Pos.CENTER);
         Scene scene = new Scene(borderPane, 800, 600);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+        scene.getStylesheets().add("../style.css");
         stage.setScene(scene);
         stage.show();
     }
 	
 	
-	public static void showFestivalPopup(Event curSelect) {
-		BorderPane borderPane = new BorderPane();
-        Stage stage = new Stage();
-        stage.setTitle("Chi tiết lễ hội");
-        Image imagebackground = new Image(
-                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
-        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
-                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
-        borderPane.setBackground(new Background(backgroundImage));
+	public static void showFestivalPopup(Festival curSelect, ObservableList<Character> listCharacter, ObservableList<Dynasty> listDynasty, ObservableList<King> listKing) {
+		 BorderPane borderPane = new BorderPane();
+	        Stage stage = new Stage();
+	        stage.setTitle("Festival Detail");
 
-        Image image = new Image(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDuM8-H23BUUNCV6C90QbUqbWV2iyQ7b_fQ&usqp=CAU");
-        ImageView imageView = new ImageView(image);
-        imageView.setFitWidth(233);
-        imageView.setFitHeight(145);
-        // imageView.setStyle("-fx-border-color: red; -fx-border-width:
-        // medium;-fx-border-style: solid;");
-        imageView.getStyleClass().add("border-style");
+	        Image imagebackground = new Image(
+	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
+	                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
+	        borderPane.setBackground(new Background(backgroundImage));
 
-        Label ten = new Label("Tên Sự Kiện: " + curSelect.getTen());
-        Label thoiGian = new Label("Thời gian diễn ra: " + curSelect.getThoiGian());
-        Label diaDiem = new Label("Địa điểm : " + curSelect.getDiaDiem());
+	        Image image = new Image(
+	                "https://lib.agu.edu.vn/images/2020/2.png");
+	        ImageView imageView = new ImageView(image);
+	        imageView.setFitWidth(233);
+	        imageView.setFitHeight(145);
+	        imageView.getStyleClass().add("border-style");
 
-        ten.getStyleClass().add("text-color");
-        thoiGian.getStyleClass().add("text-color");
-        diaDiem.getStyleClass().add("text-color");
+	        Label tenLeHoi = new Label("Tên Lễ hội: " + curSelect.getTenLeHoi());
+	        Label thoigian = new Label("Thời gian: " + curSelect.getThoigian());
+	        Label diaDiem = new Label("Địa điểm: " + curSelect.getDiaDiem());
+	        Label noiDung = new Label("Nội dung: " + curSelect.getNoiDung());
+	        noiDung.setWrapText(true);
+	        String strCharacter = "";
+	        Character newCharacter = new Character();
 
-        VBox vbox = new VBox();
-        HBox hbox = new HBox();
-        hbox.setPadding(new Insets(20, 20, 20, 20));
-        hbox.setSpacing(25);
-        HBox pictureBox = new HBox();
-        // picturebox.setSpacing(20);
-        pictureBox.getChildren().add(imageView);
-        pictureBox.setStyle(
-                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+	        strCharacter = curSelect.getCharacter().getTen();
+	        System.out.println(strCharacter);
+	        for (int j = 0; j < listCharacter.size(); j++) {
 
-        VBox labelBox = new VBox();
-        // labelbox.setSpacing(20);
-        labelBox.getChildren().addAll(ten, thoiGian, diaDiem);
+	            if (curSelect.getCharacter().getTen().toLowerCase()
+	                    .indexOf(listCharacter.get(j).getTen().toLowerCase()) != -1) {
+	                newCharacter = listCharacter.get(j);
+	            }
+	        }
 
-        hbox.getChildren().addAll(pictureBox, labelBox);
+	        curSelect.setCharacter(newCharacter);
+	        Label Character = new Label(
+	                "Nhân vật liên quan: " + (curSelect.getCharacter().getTen() == null ? "Không có" : strCharacter));
+	        Character.setWrapText(true);
 
-        VBox contentText = new VBox();
+	        tenLeHoi.getStyleClass().add("text-color");
+	        thoigian.getStyleClass().add("text-color");
+	        diaDiem.getStyleClass().add("text-color");
+	        noiDung.getStyleClass().add("text-color");
+	        Character.getStyleClass().add("text-color");
 
-        vbox.getChildren().addAll(hbox, contentText);
-        borderPane.setCenter(vbox);
-        pictureBox.setAlignment(Pos.CENTER_LEFT);
-        labelBox.setAlignment(Pos.BASELINE_LEFT);
-        hbox.setAlignment(Pos.CENTER);
-        contentText.setAlignment(Pos.CENTER);
-        vbox.setAlignment(Pos.CENTER);
-        Scene scene = new Scene(borderPane, 800, 600);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
-        stage.setScene(scene);
-        stage.show();
+	        VBox vbox = new VBox();
+	        HBox hbox = new HBox();
+	        hbox.setPadding(new Insets(20, 20, 20, 20));
+	        hbox.setSpacing(25);
+	        HBox picturebox = new HBox();
+	        // picturebox.setSpacing(20);
+	        picturebox.getChildren().add(imageView);
+	        picturebox.setStyle(
+	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+
+	        VBox labelbox = new VBox();
+	        // labelbox.setSpacing(20);
+	        labelbox.getChildren().addAll(tenLeHoi, thoigian, diaDiem, Character);
+
+	        hbox.getChildren().addAll(picturebox, labelbox);
+
+	        VBox contentText = new VBox();
+	        contentText.getChildren().addAll(noiDung);
+	        contentText.setPadding(new Insets(10, 50, 10, 50));
+
+	        vbox.getChildren().addAll(hbox, contentText);
+	        borderPane.setCenter(vbox);
+	        picturebox.setAlignment(Pos.CENTER_LEFT);
+	        labelbox.setAlignment(Pos.BASELINE_LEFT);
+	        hbox.setAlignment(Pos.CENTER);
+	        contentText.setAlignment(Pos.CENTER);
+	        vbox.setAlignment(Pos.CENTER);
+
+	        if (curSelect.getCharacter().getTen() != null) {
+	            Button moreInfoButton = new Button("More Info " + curSelect.getCharacter().getTen());
+	            moreInfoButton.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
+	                showCharacterPopup(curSelect.getCharacter(), listDynasty, listKing);
+	            });
+	            borderPane.setBottom(moreInfoButton);
+	        }
+
+	        Scene scene = new Scene(borderPane, 800, 600);
+	        scene.getStylesheets().add("../style.css");
+	        stage.setScene(scene);
+	        stage.show();
 	}
 	
 	public static void showCharacterPopup(Character curSelect, ObservableList<Dynasty> listDynasty, ObservableList<King> listKing) {
@@ -262,7 +293,7 @@ public class HistoryGUI {
 	        borderPane.setBottom(moreInforContainer);
 	        BorderPane.setAlignment(moreInforContainer, Pos.CENTER);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+	        scene.getStylesheets().add("../style.css");
 	        stage.setScene(scene);
 	        stage.show();
 	    
@@ -330,7 +361,7 @@ public class HistoryGUI {
 	        contentText.setAlignment(Pos.CENTER);
 	        vbox.setAlignment(Pos.CENTER);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+	        scene.getStylesheets().add("../style.css");
 	        stage.setScene(scene);
 	        stage.show();
 	}
@@ -359,7 +390,7 @@ public class HistoryGUI {
 	        desc.setWrapText(true);
 	        String strTrieuDai = "";
 	        String strKings = "";
-	        String strFigures = "";
+	        String strCharacters = "";
 	        LinkedList<Dynasty> newDynasties = new LinkedList<Dynasty>();
 	        LinkedList<King> newKings = new LinkedList<King>();
 	        LinkedList<Character> newCharacters = new LinkedList<Character>();
@@ -389,7 +420,7 @@ public class HistoryGUI {
 	        }
 	        for (int i = 0; i < curSelect.getCharacters().size(); i++) {
 
-	            strFigures += curSelect.getCharacters().get(i).getTen() + ",";
+	            strCharacters += curSelect.getCharacters().get(i).getTen() + ",";
 	            for (int j = 0; j < characters.size(); j++) {
 
 	                if (curSelect.getCharacters().get(i).getTen().toLowerCase()
@@ -406,7 +437,7 @@ public class HistoryGUI {
 	                "Triều đại: " + (strTrieuDai == "" ? "Chưa rõ" : strTrieuDai));
 	        Label vua = new Label("Vua: " + (strKings == "" ? "Không có" : strKings));
 	        Label nhanVat = new Label(
-	                "Nhân vật Lịch sử: " + (strFigures == "" ? "Không có" : strFigures));
+	                "Nhân vật Lịch sử: " + (strCharacters == "" ? "Không có" : strCharacters));
 
 	        name.getStyleClass().add("text-color");
 	        location.getStyleClass().add("text-color");
@@ -474,7 +505,7 @@ public class HistoryGUI {
 	        }
 	        borderPane.setBottom(moreInforContainer);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+	        scene.getStylesheets().add("../style.css");
 	        stage.setScene(scene);
 	        stage.show();
 	    
@@ -533,7 +564,7 @@ public class HistoryGUI {
         contentText.setAlignment(Pos.CENTER);
         vbox.setAlignment(Pos.CENTER);
         Scene scene = new Scene(borderPane, 800, 600);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+        scene.getStylesheets().add("../style.css");
         stage.setScene(scene);
         stage.show();
 	}

@@ -22,13 +22,14 @@ import javafx.scene.layout.BorderPane;
 
 import com.project.historydatabase.dynasty.Dynasty;
 import com.project.historydatabase.festival.Festival;
-import com.project.historydatabase.figure.Figure;
 import com.project.historydatabase.figure.King;
 import com.project.historydatabase.figure.Character;
 import com.project.historydatabase.relic.Relic;
 import com.project.historydatabase.event.Event;
 
 public class MainController {
+	
+	HistoryDatabase historyDatabse = new HistoryDatabase();
 
     @FXML
     private MenuItem menuItemKing;
@@ -65,7 +66,12 @@ public class MainController {
 
         menuBtnSearchField.setText(menuItem.getText());
 
-        HistoryDatabase.getHistoryDatabase();
+        ObservableList<Character> listObservablesCharacter = HistoryDatabase.<Character>getHistoryDatabase("characterUpdate.json", Character.class);
+        ObservableList<King> listObservablesKing = historyDatabse.<King>getHistoryDatabase("king.json", King.class);
+        ObservableList<Dynasty> listObservablesDynasty = historyDatabse.<Dynasty>getHistoryDatabase("dynasty.json", Dynasty.class);
+        ObservableList<Festival> listObservablesFestival = historyDatabse.<Festival>getHistoryDatabase("festival.json", Festival.class);
+        ObservableList<Relic> listObservablesRelic = historyDatabse.<Relic>getHistoryDatabase("relic.json", Relic.class);
+        ObservableList<Event> listObservablesEvent = historyDatabse.<Event>getHistoryDatabase("event.json", Event.class);
 
         switch (lableSelecItem) {
             case "King":
@@ -84,34 +90,34 @@ public class MainController {
                 borderPane.setCenter(tableKingView);
                 break;
             case "Nhân Vật Lịch Sử":
-                String[] nameColFigure = { "Tên Nhân Vật", "Quê quán", "Năm sinh", "Năm mất" };
-                String[] figureStr = { "ten", "queQuan", "namSinh", "namMat" };
-                TableView<Figure> tableFigureView = new TableViewCustom<Figure>().makTableView(
-                        nameColFigure, figureStr);
-                tableFigureView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
+                String[] nameColCharacter = { "Tên Nhân Vật", "Quê quán", "Năm sinh", "Năm mất" };
+                String[] CharacterStr = { "ten", "queQuan", "namSinh", "namMat" };
+                TableView<Character> tableCharacterView = new TableViewCustom<Character>().makTableView(
+                        nameColCharacter, CharacterStr);
+                tableCharacterView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
                     if (e.getClickCount() > 1) {
-                        Figure curSelect = tableFigureView.getSelectionModel().getSelectedItem();
-                        new FigureDetails(curSelect, listObservablesDynasty, listObservablesKing);
+                        Character curSelect = tableCharacterView.getSelectionModel().getSelectedItem();
+                        HistoryGUI.showCharacterPopup(curSelect, listObservablesDynasty, listObservablesKing);
                     }
                 });
-                Search<Figure> searchFigure = new Search<Figure>();
-                tableFigureView.setItems(searchFigure.searchList(listObservablesFigure, tfSearch, Figure.class));
-                borderPane.setCenter(tableFigureView);
+                SearchEngine<Character> searchCharacter = new SearchEngine<Character>();
+                tableCharacterView.setItems(searchCharacter.searchList(listObservablesCharacter, tfSearch, Character.class));
+                borderPane.setCenter(tableCharacterView);
                 break;
             case "Sự kiện lịch sử":
-                String[] nameColSuKien = { "Tên sự kiện", "Thời gian diễn ra", "Địa điểm" };
-                String[] SuKienStr = { "ten", "thoi_gian", "dia_diem" };
-                TableView<SuKien> tableSuKienView = new TableViewCustom<SuKien>().makTableView(
-                        nameColSuKien, SuKienStr);
-                tableSuKienView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
+                String[] nameColEvent = { "Tên sự kiện", "Thời gian diễn ra", "Địa điểm" };
+                String[] eventFields = { "ten", "thoi_gian", "dia_diem" };
+                TableView<Event> tableEventView = new TableViewCustom<Event>().makTableView(
+                        nameColEvent, eventFields);
+                tableEventView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
                     if (e.getClickCount() > 1) {
-                        SuKien curSelect = tableSuKienView.getSelectionModel().getSelectedItem();
-                        new SuKienDetails(curSelect);
+                        Event curSelect = tableEventView.getSelectionModel().getSelectedItem();
+                        HistoryGUI.showEventPopup(curSelect);
                     }
                 });
-                Search<SuKien> searchSuKien = new Search<SuKien>();
-                tableSuKienView.setItems(searchSuKien.searchList(listObservablesSuKien, tfSearch, SuKien.class));
-                borderPane.setCenter(tableSuKienView);
+                SearchEngine<Event> searchEvent = new SearchEngine<Event>();
+                tableEventView.setItems(searchEvent.searchList(listObservablesEvent, tfSearch, Event.class));
+                borderPane.setCenter(tableEventView);
                 break;
 
             case "Di tích lịch sử":
@@ -122,11 +128,10 @@ public class MainController {
                 tableRelicView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
                     if (e.getClickCount() > 1) {
                         Relic curSelect = tableRelicView.getSelectionModel().getSelectedItem();
-                        new RelicDetails(curSelect, listObservablesFigure, listObservablesKing,
-                                listObservablesDynasty);
+                        HistoryGUI.showRelicPopup(curSelect, listObservablesCharacter, listObservablesKing,listObservablesDynasty);
                     }
                 });
-                Search<Relic> searchRelic = new Search<Relic>();
+                SearchEngine<Relic> searchRelic = new SearchEngine<Relic>();
                 tableRelicView.setItems(searchRelic.searchList(listObservablesRelic, tfSearch, Relic.class));
                 borderPane.setCenter(tableRelicView);
                 break;
@@ -138,11 +143,10 @@ public class MainController {
                 tableFestivalView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
                     if (e.getClickCount() > 1) {
                         Festival curSelect = tableFestivalView.getSelectionModel().getSelectedItem();
-                        new FestivalDetails(curSelect, listObservablesFigure, listObservablesDynasty,
-                                listObservablesKing);
+                        HistoryGUI.showFestivalPopup(curSelect, listObservablesCharacter, listObservablesDynasty, listObservablesKing);
                     }
                 });
-                Search<Festival> searchFestival = new Search<Festival>();
+                SearchEngine<Festival> searchFestival = new SearchEngine<Festival>();
                 tableFestivalView
                         .setItems(searchFestival.searchList(listObservablesFestival, tfSearch, Festival.class));
                 borderPane.setCenter(tableFestivalView);
@@ -155,10 +159,10 @@ public class MainController {
                 tableDynastyView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
                     if (e.getClickCount() > 1) {
                         Dynasty curSelect = tableDynastyView.getSelectionModel().getSelectedItem();
-                        new DynastyDetails(curSelect, listObservablesKing);
+                        HistoryGUI.showDynastyPopup(curSelect, listObservablesKing);
                     }
                 });
-                Search<Dynasty> searchDynasty = new Search<Dynasty>();
+                SearchEngine<Dynasty> searchDynasty = new SearchEngine<Dynasty>();
                 tableDynastyView.setItems(searchDynasty.searchList(listObservablesDynasty, tfSearch, Dynasty.class));
                 borderPane.setCenter(tableDynastyView);
                 break;

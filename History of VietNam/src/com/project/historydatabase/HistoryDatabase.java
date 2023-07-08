@@ -22,10 +22,11 @@ import javafx.collections.ObservableList;
 
 
 public class HistoryDatabase {
-    public static <T> ObservableList<T> readDataFromJson(String filePath, Class<T> objectType) {
+    public static <T> ObservableList<T> getHistoryDatabase(String dataFile, Class<T> objectType) {
+    	String dataPath = "../../../../History%20Data/";
         try {
             Gson gson = new Gson();
-            FileReader fileReader = new FileReader(filePath);
+            FileReader fileReader = new FileReader(dataFile);
 
             Type listType = TypeToken.getParameterized(List.class, objectType).getType();
             List<T> objects = gson.fromJson(fileReader, listType);
@@ -35,16 +36,6 @@ public class HistoryDatabase {
             e.printStackTrace();
             return null;
         }
-    }
-    
-    public static void getHistoryDatabase(){
-    	String dataPath = "../../../../History%20Data/";
-        ObservableList<Figure> listObservablesFigure = readDataFromJson(dataPath + "figure.json", Figure.class);
-        ObservableList<King> listObservablesKing = readDataFromJson(dataPath + "king.json", King.class);
-        ObservableList<Dynasty> listObservablesDynasty = readDataFromJson(dataPath + "dynasty.json", Dynasty.class);
-        ObservableList<Festival> listObservablesFestival = readDataFromJson(dataPath + "festival.json", Festival.class);
-        ObservableList<Relic> listObservablesRelic = readDataFromJson(dataPath + "relic.json", Relic.class);
-        ObservableList<Event> listObservablesEvent = readDataFromJson(dataPath + "event.json", Event.class);
     }
 //    private List<Dynasty> dynasties;
 //    private List<Figure> figures;

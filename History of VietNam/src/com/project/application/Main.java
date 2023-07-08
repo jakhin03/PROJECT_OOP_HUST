@@ -10,7 +10,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("/Main.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("./Main.fxml"));
 			// Group root = new Group();
 			root.setStyle(
 					"-fx-background-image:url('https://media.discordapp.net/attachments/755083836169257062/1071084215606722560/image.png?width=1190&height=670');-fx-background-size : 100% 100%");
@@ -24,6 +24,6 @@ public class Main extends Application {
 	}
 
 	public static void main(String[] args) {
-		launch(args);
+		//launch(args);
 	}
 }

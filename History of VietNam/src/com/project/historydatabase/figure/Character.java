@@ -12,6 +12,9 @@ public class Character extends Figure {
     private String tenKhac;
     private King doiVua;
     private ArrayList<Dynasty> trieuDai = new ArrayList<Dynasty>();
+    
+    public Character() {
+    }
 
     public Character(String ten, String namSinh, String namMat, String queQuan, String danToc, String namNhapNgu, String ghiChu, String namDoTrangNguyen)  {
         super(ten, namSinh, namMat);
@@ -47,7 +50,8 @@ public class Character extends Figure {
 		super(ten);
 	}
 
-    public String getQueQuan() {
+
+	public String getQueQuan() {
         return queQuan;
     }
 
