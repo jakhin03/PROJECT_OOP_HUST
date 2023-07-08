@@ -6,10 +6,10 @@ import com.project.historydatabase.dynasty.*;
 
 public class Event {
 	private String ten;
-	private String thoi_gian;
-	private String dia_diem;
-	private Dynasty nien_dai;
-	private Character nhan_vat_lien_quan;
+	private String thoiGian;
+	private String diaDiem;
+	private Dynasty nienDai;
+	private Character nhanVatLienQuan;
 
 	/*
 	 * public SuKien(String ten, String thoi_gian, String dia_diem,
@@ -29,38 +29,38 @@ public class Event {
 		this.ten = ten;
 	}
 
-	public String getThoi_gian() {
-		return thoi_gian;
+	public String getThoiGian() {
+		return thoiGian;
 	}
 
-	public void setThoi_gian(String thoi_gian) {
-		this.thoi_gian = thoi_gian;
+	public void setThoiGian(String thoiGian) {
+		this.thoiGian = thoiGian;
 	}
 
-	public String getDia_diem() {
-		return (dia_diem.equals("")) ? "Đang cập nhật" : dia_diem;
+	public String getDiaDiem() {
+		return (diaDiem.equals("")) ? "Đang cập nhật" : diaDiem;
 	}
 
-	public void setDia_diem(String dia_diem) {
-		this.dia_diem = dia_diem;
+	public void setDiaDiem(String diaDiem) {
+		this.diaDiem = diaDiem;
 	}
 
 	public Dynasty getNien_dai() {
-		return nien_dai;
+		return nienDai;
 	}
 
-	public void setNien_dai(Dynasty nien_dai) {
-		this.nien_dai = nien_dai;
+	public void setNienDai(Dynasty nienDai) {
+		this.nienDai = nienDai;
 	}
 
-	public Figure getNhan_vat_lien_quan() {
-		return nhan_vat_lien_quan;
+	public Figure getNhanVatLienQuan() {
+		return nhanVatLienQuan;
 	}
 
-	public void setNhan_vat_lien_quan(String ten) {
-		Character fig = new Character(ten) {
+	public void setNhanVatLienQuan(String ten) {
+		Character character = new Character(ten) {
 		};
-		this.nhan_vat_lien_quan = fig;
+		this.nhanVatLienQuan = character;
 	}
 }
 

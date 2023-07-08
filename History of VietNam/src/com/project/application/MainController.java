@@ -2,16 +2,10 @@ package com.project.application;
 
 import java.io.IOException;
 
+import com.project.application.historygui.HistoryGUI;
 import com.project.historydatabase.HistoryDatabase;
 
-import application.popup.details.DynastyDetails;
-import application.popup.details.FestivalDetails;
-import application.popup.details.FigureDetails;
-import application.popup.details.KingDetails;
-import application.popup.details.RelicDetails;
-import application.popup.details.SuKienDetails;
-import application.readdata.ReadData;
-import application.search.Search;
+import com.project.searchengine.SearchEngine;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -82,10 +76,10 @@ public class MainController {
                 tableKingView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
                     if (e.getClickCount() > 1) {
                         King curSelect = tableKingView.getSelectionModel().getSelectedItem();
-                        new KingDetails(curSelect);
+                        HistoryGUI.showKingPopup(curSelect);
                     }
                 });
-                Search<King> searchKing = new Search<King>();
+                SearchEngine<King> searchKing = new SearchEngine<King>();
                 tableKingView.setItems(searchKing.searchList(listObservablesKing, tfSearch, King.class));
                 borderPane.setCenter(tableKingView);
                 break;
