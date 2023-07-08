@@ -107,7 +107,7 @@ public class HistoryGUI {
         borderPane.setBottom(moreInforContainer);
         BorderPane.setAlignment(moreInforContainer, Pos.CENTER);
         Scene scene = new Scene(borderPane, 800, 600);
-        scene.getStylesheets().add("../style.css");
+        //scene.getStylesheets().add("style/style.css");
         stage.setScene(scene);
         stage.show();
     }
@@ -197,7 +197,7 @@ public class HistoryGUI {
 	        }
 
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add("../style.css");
+	        //scene.getStylesheets().add("style/style.css");
 	        stage.setScene(scene);
 	        stage.show();
 	}
@@ -293,7 +293,7 @@ public class HistoryGUI {
 	        borderPane.setBottom(moreInforContainer);
 	        BorderPane.setAlignment(moreInforContainer, Pos.CENTER);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add("../style.css");
+	        //scene.getStylesheets().add("style/style.css");
 	        stage.setScene(scene);
 	        stage.show();
 	    
@@ -361,7 +361,7 @@ public class HistoryGUI {
 	        contentText.setAlignment(Pos.CENTER);
 	        vbox.setAlignment(Pos.CENTER);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add("../style.css");
+	        //scene.getStylesheets().add("style/style.css");
 	        stage.setScene(scene);
 	        stage.show();
 	}
@@ -505,7 +505,7 @@ public class HistoryGUI {
 	        }
 	        borderPane.setBottom(moreInforContainer);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add("../style.css");
+	        scene.getStylesheets().add("style2.css");
 	        stage.setScene(scene);
 	        stage.show();
 	    
@@ -564,7 +564,7 @@ public class HistoryGUI {
         contentText.setAlignment(Pos.CENTER);
         vbox.setAlignment(Pos.CENTER);
         Scene scene = new Scene(borderPane, 800, 600);
-        scene.getStylesheets().add("../style.css");
+        //scene.getStylesheets().add("style/style.css");
         stage.setScene(scene);
         stage.show();
 	}

@@ -2,9 +2,12 @@ package com.project.historydatabase;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.awt.AWTException;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.File;
 import java.lang.reflect.Type;
-import java.io.IOException;
+import java.util.Properties;
 
 import com.project.historydatabase.dynasty.Dynasty;
 import com.project.historydatabase.festival.Festival;
@@ -23,19 +26,23 @@ import javafx.collections.ObservableList;
 
 public class HistoryDatabase {
     public static <T> ObservableList<T> getHistoryDatabase(String dataFile, Class<T> objectType) {
-    	String dataPath = "../../../../History%20Data/";
-        try {
-            Gson gson = new Gson();
-            FileReader fileReader = new FileReader(dataFile);
+    	String dataPath = "History Data\\";
+        Gson gson = new Gson();
+		FileReader fileReader;
+	
+		try {
+			fileReader = new FileReader(dataPath + dataFile);
+			Type listType = TypeToken.getParameterized(List.class, objectType).getType();
+			List<T> objects = gson.fromJson(fileReader, listType);
 
-            Type listType = TypeToken.getParameterized(List.class, objectType).getType();
-            List<T> objects = gson.fromJson(fileReader, listType);
+			return FXCollections.observableList(objects);
+		} catch (FileNotFoundException e) {
+			System.out.println("Cant find data in path: " + dataPath+dataFile);
+			return null;
+		}
 
-            return FXCollections.observableList(objects);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
+		
+	    }
     }
 //    private List<Dynasty> dynasties;
 //    private List<Figure> figures;
@@ -148,4 +155,4 @@ public class HistoryDatabase {
 //	}
 //    
 //    
-}
+
