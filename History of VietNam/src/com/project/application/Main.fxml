@@ -46,7 +46,7 @@
       
    </center>
    <bottom>
-      <Text id="Textcss" strokeType="OUTSIDE" strokeWidth="0.0" text="History of Viet Nam" BorderPane.alignment="CENTER">
+      <Text id="Textcss" strokeType="OUTSIDE" strokeWidth="0.0" text="LỊCH SỬ VIỆT NAM" BorderPane.alignment="CENTER">
          <font>
             <Font name="System Bold Italic" size="36.0" />
          </font>
