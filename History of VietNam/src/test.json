@@ -1,18 +1,13 @@
 [
   {
-    "ten": "",
-    "thoiGian": "Niên biểu lịch sử Việt Nam",
-    "diaDiem": ""
-  },
-  {
     "ten": "Văn hóa Soi Nhụ",
     "thoiGian": "25.000 TCN–7.000 TCN",
     "diaDiem": "Soi Nhụ"
   },
   {
-    "ten": "Kỹ nghệ Ngườm",
+    "ten": "Văn hóa Ngườm",
     "thoiGian": "23.000 TCN",
-    "diaDiem": ""
+    "diaDiem": "Ngườm"
   },
   {
     "ten": "Văn hóa Tràng An",
@@ -60,9 +55,9 @@
     "diaDiem": "Phùng Nguyên"
   },
   {
-    "ten": "Văn hóa Tiền Sa Huỳnh (trang không tồn tại)",
+    "ten": "Văn hóa Tiền Sa Huỳnh",
     "thoiGian": "2.000 TCN–1.000 TCN",
-    "diaDiem": "Tiền Sa Huỳnh trang không tồn tại"
+    "diaDiem": "Tiền Sa Huỳnh"
   },
   {
     "ten": "Văn hóa Đồng Đậu",
@@ -76,7 +71,7 @@
   },
   {
     "ten": "Văn hóa Sa Huỳnh",
-    "thoiGian": "1.000 TCN - 200",
+    "thoiGian": "1.000 TCN - 200 ",
     "diaDiem": "Sa Huỳnh"
   },
   {
@@ -95,12 +90,7 @@
     "diaDiem": "Óc Eo"
   },
   {
-    "ten": "Hùng Vương",
-    "thoiGian": "Thế kỉ VII TCN",
-    "diaDiem": ""
-  },
-  {
-    "ten": "An Dương Vương",
+    "ten": "An Dương Vương Văn Lang Âu Lạc",
     "thoiGian": "207 TCN",
     "diaDiem": ""
   },
@@ -110,7 +100,7 @@
     "diaDiem": "TầnViệt"
   },
   {
-    "ten": "Triệu Vũ Vương",
+    "ten": "Triệu Đà Âu Lạc Nam Việt",
     "thoiGian": "179 TCN",
     "diaDiem": ""
   },
@@ -120,23 +110,23 @@
     "diaDiem": "HánNam Việt"
   },
   {
-    "ten": "Nhà Hán",
+    "ten": "nhà Hán Nam Việt",
     "thoiGian": "111 TCN",
     "diaDiem": ""
   },
   {
-    "ten": "Khởi nghĩa Hai Bà Trưng",
-    "thoiGian": "40",
+    "ten": "khởi nghĩa Hai Bà Trưng Trưng Trắc Lĩnh Nam Mê Linh",
+    "thoiGian": "40 ",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Hán–Việt (42-43)",
-    "thoiGian": "42 - 43",
-    "diaDiem": "Hán–Việt 4243"
+    "ten": "Chiến tranh Lĩnh Nam - Đông Hán",
+    "thoiGian": "42 - 43 ",
+    "diaDiem": "Lĩnh Nam  Đông Hán"
   },
   {
-    "ten": "Đông Hán",
-    "thoiGian": "43",
+    "ten": "Đông Hán Lĩnh Nam",
+    "thoiGian": "43 ",
     "diaDiem": ""
   },
   {
@@ -150,37 +140,32 @@
     "diaDiem": ""
   },
   {
-    "ten": "Khu Liên",
+    "ten": "Khu Liên Nhật Nam Lâm Ấp",
     "thoiGian": "192",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "229",
+    "ten": "Tôn Quyền Đông Ngô nhà Hán",
+    "thoiGian": "23 tháng 6 229",
     "diaDiem": ""
   },
   {
-    "ten": "Tôn Quyền",
-    "thoiGian": "23 tháng 6",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Bà Triệu",
+    "ten": "Khởi nghĩa Bà Triệu",
     "thoiGian": "246 - 248",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Tấn – Ngô (280)",
+    "ten": "Chiến tranh Tấn – Ngô",
     "thoiGian": "280",
-    "diaDiem": "Tấn – Ngô "
+    "diaDiem": "Tấn – Ngô"
   },
   {
-    "ten": "Lưu Tống Vũ Đế",
+    "ten": "Lưu Dụ Tấn Cung Đế Lưu Tống",
     "thoiGian": "420",
     "diaDiem": ""
   },
   {
-    "ten": "Đàn Hòa Chi",
+    "ten": "Đàn Hòa Chi Lâm Ấp",
     "thoiGian": "436",
     "diaDiem": ""
   },
@@ -190,22 +175,22 @@
     "diaDiem": ""
   },
   {
-    "ten": "Nam Tề Cao Đế",
+    "ten": "Tiêu Đạo Thành Lưu Chuẩn Nam Tề",
     "thoiGian": "479",
     "diaDiem": ""
   },
   {
-    "ten": "Lương Vũ Đế",
+    "ten": "Tiêu Diễn Tiêu Bảo Dung nhà Lương",
     "thoiGian": "502",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Tiền Lý - Lương (545-550)",
+    "ten": "khởi nghĩa Lý Bí",
     "thoiGian": "541",
-    "diaDiem": "Tiền Lý  Lương 545550"
+    "diaDiem": ""
   },
   {
-    "ten": "Lý Nam Đế",
+    "ten": "Lý Bí Vạn Xuân",
     "thoiGian": "544",
     "diaDiem": ""
   },
@@ -215,18 +200,13 @@
     "diaDiem": "Tùy–Vạn Xuân"
   },
   {
-    "ten": "",
-    "thoiGian": "618",
+    "ten": "Lý Uyên nhà Đường",
+    "thoiGian": "tháng 3 618",
     "diaDiem": ""
   },
   {
-    "ten": "Đường Cao Tổ",
-    "thoiGian": "tháng 3",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Đường Cao Tổ",
-    "thoiGian": "tháng 5",
+    "ten": "Lý Uyên Dương Hựu",
+    "thoiGian": "tháng 5 618",
     "diaDiem": ""
   },
   {
@@ -250,12 +230,12 @@
     "diaDiem": ""
   },
   {
-    "ten": "Trận Bạch Đằng (938)",
+    "ten": "Trận Bạch Đằng Ngô Quyền Nam Hán sông Bạch Đằng",
     "thoiGian": "938",
-    "diaDiem": "Bạch Đằng "
+    "diaDiem": "Bạch Đằng Ngô Quyền Nam Hán sông Bạch Đằng"
   },
   {
-    "ten": "Ngô Quyền",
+    "ten": "Ngô Quyền Cổ Loa",
     "thoiGian": "939",
     "diaDiem": ""
   },
@@ -265,83 +245,63 @@
     "diaDiem": ""
   },
   {
-    "ten": "Đinh Tiên Hoàng",
+    "ten": "Đinh Bộ Lĩnh Đại Cồ Việt Hoa Lư",
     "thoiGian": "968",
     "diaDiem": ""
   },
   {
-    "ten": "Đinh Tiên Hoàng",
+    "ten": "Đinh Bộ Lĩnh Thái Bình hưng bảo",
     "thoiGian": "970",
     "diaDiem": ""
   },
   {
-    "ten": "Đinh Tiên Hoàng",
+    "ten": "Đinh Bộ Lĩnh",
     "thoiGian": "979",
     "diaDiem": ""
   },
   {
-    "ten": "Lê Đại Hành",
+    "ten": "Lê Hoàn nhà Tiền Lê",
     "thoiGian": "980",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "981",
+    "ten": "Chiến tranh Tống - Việt",
+    "thoiGian": "tháng 1 - tháng 4 981",
+    "diaDiem": "Tống  Việt"
+  },
+  {
+    "ten": "Lý Công Uẩn nhà Lý",
+    "thoiGian": "21 tháng 11 1009",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Tống - Việt, 981",
-    "thoiGian": "tháng 1 - tháng 4",
-    "diaDiem": "Tống  Việt, 981"
-  },
-  {
-    "ten": "",
-    "thoiGian": "1009",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Lý Thái Tổ",
-    "thoiGian": "21 tháng 11",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Lý Thái Tổ",
+    "ten": "Lý Công Uẩn Thăng Long",
     "thoiGian": "1010",
     "diaDiem": ""
   },
   {
-    "ten": "Lý Thánh Tông",
+    "ten": "Lý Thánh Tông Đại Cồ Việt Đại Việt",
     "thoiGian": "1054",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Việt-Chiêm 1069",
+    "ten": "Chiến tranh Việt-Chiêm Đại Việt Chiêm Thành",
     "thoiGian": "1069",
-    "diaDiem": "ViệtChiêm "
+    "diaDiem": "ViệtChiêm Đại Việt Chiêm Thành"
   },
   {
-    "ten": "Chiến tranh Tống-Việt, 1075-1077",
+    "ten": "Chiến tranh Tống-Việt",
     "thoiGian": "1075–1077",
-    "diaDiem": "TốngViệt, 10751077"
+    "diaDiem": "TốngViệt"
   },
   {
-    "ten": "",
-    "thoiGian": "1077",
-    "diaDiem": ""
+    "ten": "Trận Như Nguyệt Tống",
+    "thoiGian": "18 tháng 1 – 28 tháng 2 1077",
+    "diaDiem": "Như Nguyệt Tống"
   },
   {
-    "ten": "Trận Như Nguyệt",
-    "thoiGian": "18 tháng 1 – 28 tháng 2",
-    "diaDiem": "Như Nguyệt"
-  },
-  {
-    "ten": "",
-    "thoiGian": "1226",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Lý Chiêu Hoàng",
-    "thoiGian": "10 tháng 1",
+    "ten": "Lý Chiêu Hoàng Trần Cảnh nhà Trần",
+    "thoiGian": "10 tháng 1 1226",
     "diaDiem": ""
   },
   {
@@ -370,29 +330,24 @@
     "diaDiem": "Nguyên Mông–Đại Việt lần 3"
   },
   {
-    "ten": "Thông Bảo hội sao",
+    "ten": "Thông Bảo hội sao Hồ Quý Ly",
     "thoiGian": "1396",
     "diaDiem": ""
   },
   {
-    "ten": "Hồ Quý Ly",
+    "ten": "Hồ Quý Ly Trần Thuận Tông Tây Đô",
     "thoiGian": "1397",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1400",
+    "ten": "Hồ Quý Ly nhà Hồ Đại Ngu",
+    "thoiGian": "22 tháng 3 1400",
     "diaDiem": ""
   },
   {
-    "ten": "Hồ Quý Ly",
-    "thoiGian": "22 tháng 3",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Chiến tranh Việt-Chiêm 1400-1407",
+    "ten": "Chiến tranh Việt-Chiêm",
     "thoiGian": "1400–1407",
-    "diaDiem": "ViệtChiêm 14001407"
+    "diaDiem": "ViệtChiêm"
   },
   {
     "ten": "Chiến tranh Đại Ngu–Đại Minh",
@@ -400,33 +355,28 @@
     "diaDiem": "Đại Ngu–Đại Minh"
   },
   {
-    "ten": "Nhà Minh",
+    "ten": "nhà Minh Đại Ngu Giao Chỉ Đông Quan",
     "thoiGian": "1407",
     "diaDiem": ""
   },
   {
-    "ten": "Giản Định Đế",
-    "thoiGian": "2 tháng 10",
+    "ten": "Trần Ngỗi nhà Hậu Trần",
+    "thoiGian": "2 tháng 10 1400",
     "diaDiem": ""
   },
   {
-    "ten": "Nhà Hậu Trần",
+    "ten": "nhà Hậu Trần nhà Minh",
     "thoiGian": "1413",
     "diaDiem": ""
   },
   {
-    "ten": "Khởi nghĩa Lam Sơn",
+    "ten": "khởi nghĩa Lam Sơn",
     "thoiGian": "1418–1427",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1428",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Lê Thái Tổ",
-    "thoiGian": "29 tháng 4",
+    "ten": "Lê Lợi Đại Việt Đông Kinh",
+    "thoiGian": "29 tháng 4 1428",
     "diaDiem": ""
   },
   {
@@ -435,19 +385,19 @@
     "diaDiem": ""
   },
   {
-    "ten": "Chính biến Thiên Hưng",
+    "ten": "Chính biến Thiên Hưng Lê Thánh Tông",
     "thoiGian": "1459–1460",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Việt–Chiêm (1471)",
+    "ten": "Chiến tranh Việt–Chiêm Chiêm Thành Đại Việt",
     "thoiGian": "1471",
-    "diaDiem": "Việt–Chiêm "
+    "diaDiem": "Việt–Chiêm Chiêm Thành Đại Việt"
   },
   {
-    "ten": "Chiến tranh Đại Việt–Lan Xang (1478–1480)",
+    "ten": "Chiến tranh Đại Việt–Lan Xang",
     "thoiGian": "1478–1480",
-    "diaDiem": "Đại Việt–Lan Xang "
+    "diaDiem": "Đại Việt–Lan Xang"
   },
   {
     "ten": "Luật Hồng Đức",
@@ -460,7 +410,7 @@
     "diaDiem": ""
   },
   {
-    "ten": "Trần Cảo (tướng khởi nghĩa)",
+    "ten": "Trần Cảo",
     "thoiGian": "1516–1521",
     "diaDiem": ""
   },
@@ -470,12 +420,12 @@
     "diaDiem": ""
   },
   {
-    "ten": "Mạc Thái Tổ",
+    "ten": "Mạc Đăng Dung Lê Cung Hoàng nhà Mạc",
     "thoiGian": "1527",
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Kim",
+    "ten": "Nguyễn Kim Lê Ninh nhà Lê Vạn Lại",
     "thoiGian": "1533",
     "diaDiem": ""
   },
@@ -485,17 +435,17 @@
     "diaDiem": "Lê–Mạc"
   },
   {
-    "ten": "Nhà Lê trung hưng",
+    "ten": "Lê trung hưng nhà Mạc",
     "thoiGian": "1592",
     "diaDiem": ""
   },
   {
-    "ten": "Lê Thế Tông",
+    "ten": "Lê Thế Tông Đông Kinh",
     "thoiGian": "1597",
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Hoàng",
+    "ten": "Nguyễn Hoàng Thuận Hóa",
     "thoiGian": "1558",
     "diaDiem": ""
   },
@@ -505,44 +455,34 @@
     "diaDiem": ""
   },
   {
-    "ten": "Nhà Lê trung hưng",
+    "ten": "Lê trung hưng nhà Mạc",
     "thoiGian": "1683",
     "diaDiem": ""
   },
   {
-    "ten": "Nhà Tây Sơn",
+    "ten": "khởi nghĩa Tây Sơn",
     "thoiGian": "1771",
     "diaDiem": ""
   },
   {
-    "ten": "Bình Nam (chiến tranh)",
+    "ten": "Bình Nam",
     "thoiGian": "1774–1775",
     "diaDiem": ""
   },
   {
-    "ten": "Gia Long",
+    "ten": "Nguyễn Ánh",
     "thoiGian": "1777",
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Nhạc",
+    "ten": "Nguyễn Nhạc nhà Tây Sơn Quy Nhơn",
     "thoiGian": "1778",
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Huệ",
-    "thoiGian": "",
+    "ten": "Rạch Gầm – Xoài Mút",
+    "thoiGian": "19 tháng 1 – 20 tháng 1 1785",
     "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1785",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Trận Rạch Gầm – Xoài Mút",
-    "thoiGian": "19 tháng 1 – 20 tháng 1",
-    "diaDiem": "Rạch Gầm – Xoài Mút"
   },
   {
     "ten": "Nguyễn Nhạc",
@@ -550,67 +490,57 @@
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Huệ",
-    "thoiGian": "22 tháng 12",
+    "ten": "Nguyễn Huệ Phú Xuân",
+    "thoiGian": "22 tháng 12 1785",
     "diaDiem": ""
   },
   {
-    "ten": "Trận Ngọc Hồi – Đống Đa",
+    "ten": "Trận Ngọc Hồi – Đống Đa nhà Thanh Hậu Lê",
     "thoiGian": "1789",
-    "diaDiem": "Ngọc Hồi – Đống Đa"
+    "diaDiem": "Ngọc Hồi – Đống Đa nhà Thanh Hậu Lê"
   },
   {
-    "ten": "",
-    "thoiGian": "1792",
+    "ten": "Nguyễn Huệ Nguyễn Quang Toản",
+    "thoiGian": "16 tháng 9 1792",
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Huệ",
-    "thoiGian": "16 tháng 9",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Gia Long",
+    "ten": "Nguyễn Ánh Tây Sơn Gia Long nhà Nguyễn Phú Xuân",
     "thoiGian": "1802",
     "diaDiem": ""
   },
   {
-    "ten": "Nổi dậy ở Đá Vách",
+    "ten": "Nổi dậy Đá Vách",
     "thoiGian": "1803–1855",
     "diaDiem": ""
   },
   {
-    "ten": "Nguyễn Ánh",
+    "ten": "Nguyễn Ánh Việt Nam",
     "thoiGian": "1804",
     "diaDiem": ""
   },
   {
-    "ten": "Cuộc nổi dậy Phan Bá Vành",
+    "ten": "Khởi nghĩa Phan Bá Vành",
     "thoiGian": "1821–1827",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh Việt–Xiêm (1833-1834)",
+    "ten": "Chiến tranh Việt–Xiêm",
     "thoiGian": "1833–1834",
-    "diaDiem": "Việt–Xiêm 18331834"
+    "diaDiem": "Việt–Xiêm"
   },
   {
-    "ten": "Việt Nam",
+    "ten": "Việt Nam Chân Lạp Trấn Tây Thành",
     "thoiGian": "1836",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1839",
-    "diaDiem": ""
-  },
-  {
     "ten": "Minh Mạng",
-    "thoiGian": "15 tháng 2",
+    "thoiGian": "15 tháng 2 1839",
     "diaDiem": ""
   },
   {
-    "ten": "Trấn Tây Thành",
+    "ten": "Trấn Tây Thành Xiêm Ang Duong Chân Lạp",
     "thoiGian": "1841",
     "diaDiem": ""
   },
@@ -620,108 +550,78 @@
     "diaDiem": "PhápĐại Nam"
   },
   {
-    "ten": "Cuộc nổi dậy Tạ Văn Phụng",
+    "ten": "Bạo loạn ven biển",
     "thoiGian": "1861–1865",
     "diaDiem": ""
   },
   {
-    "ten": "Cuộc nổi dậy Đoàn Hữu Trưng",
+    "ten": "Chính biến chày vôi",
     "thoiGian": "1866",
     "diaDiem": ""
   },
   {
-    "ten": "Nhà Nguyễn",
+    "ten": "nhà Nguyễn Nam Kỳ lục tỉnh Pháp",
     "thoiGian": "1867",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1884",
-    "diaDiem": ""
+    "ten": "Hòa ước Giáp Thân Chiến tranh Pháp–Đại Nam nhà Nguyễn bảo hộ Pháp",
+    "thoiGian": "6 tháng 6 1884",
+    "diaDiem": "Hòa ước Giáp Thân Pháp–Đại Nam nhà Nguyễn bảo hộ Pháp"
   },
   {
-    "ten": "Hòa ước Giáp Thân (1884)",
-    "thoiGian": "6 tháng 6",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Phong trào Cần Vương",
+    "ten": "phong trào Cần Vương",
     "thoiGian": "1885–1895",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1887",
+    "ten": "thực dân Pháp Liên bang Đông Dương Bắc Kỳ Trung Kỳ Nam Kỳ Campuchia Sài Gòn",
+    "thoiGian": "17 tháng 10 1887",
     "diaDiem": ""
   },
   {
-    "ten": "Đế quốc thực dân Pháp",
-    "thoiGian": "17 tháng 10",
+    "ten": "Lào Liên bang Đông Dương",
+    "thoiGian": "3 tháng 10 1893",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1893",
+    "ten": "Quảng Châu Loan Liên bang Đông Dương",
+    "thoiGian": "12 tháng 4 1898",
     "diaDiem": ""
   },
   {
-    "ten": "Lào",
-    "thoiGian": "3 tháng 10",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1898",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Quảng Châu Loan",
-    "thoiGian": "12 tháng 4",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Liên bang Đông Dương",
+    "ten": "Liên bang Đông Dương Hà Nội",
     "thoiGian": "1902",
     "diaDiem": ""
   },
   {
-    "ten": "Phong trào Duy Tân",
+    "ten": "phong trào Duy Tân",
     "thoiGian": "1906–1908",
     "diaDiem": ""
   },
   {
-    "ten": "Phong trào chống sưu thuế Trung Kỳ (1908)",
+    "ten": "phong trào chống sưu thuế Trung Kỳ",
     "thoiGian": "1908",
     "diaDiem": ""
   },
   {
-    "ten": "Châu Âu",
+    "ten": "châu Âu Pháp Chiến tranh thế giới thứ nhất",
     "thoiGian": "1914–1918",
-    "diaDiem": ""
+    "diaDiem": "châu Âu Pháp thế giới thứ nhất"
   },
   {
-    "ten": "Khởi nghĩa Thái Nguyên",
+    "ten": "khởi nghĩa Thái Nguyên",
     "thoiGian": "1917",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1919",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Nguyễn Ái Quốc",
-    "thoiGian": "18 tháng 6",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1930",
+    "ten": "Nguyễn Ái Quốc Yêu sách của nhân dân An Nam Hội nghị Hòa bình Versailles",
+    "thoiGian": "18 tháng 6 1919",
     "diaDiem": ""
   },
   {
     "ten": "Đảng Cộng sản Việt Nam",
-    "thoiGian": "3 tháng 2",
+    "thoiGian": "3 tháng 2 1930",
     "diaDiem": ""
   },
   {
@@ -730,204 +630,149 @@
     "diaDiem": ""
   },
   {
-    "ten": "Pháp",
+    "ten": "Pháp chiến tranh thế giới thứ hai",
     "thoiGian": "1939",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1940",
+    "ten": "Nhật Bản Đông Dương",
+    "thoiGian": "30 tháng 8 1940",
     "diaDiem": ""
   },
   {
-    "ten": "Đế quốc Nhật Bản",
-    "thoiGian": "30 tháng 8",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Chính phủ Pháp",
-    "thoiGian": "25 tháng 9",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1944",
+    "ten": "chính phủ Pháp quân đội Nhật",
+    "thoiGian": "25 tháng 9 1940",
     "diaDiem": ""
   },
   {
     "ten": "Việt Nam Tuyên truyền Giải phóng quân",
-    "thoiGian": "22 tháng 12",
+    "thoiGian": "22 tháng 12 1944",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1945",
+    "ten": "thực dân Pháp",
+    "thoiGian": "tháng 3 1945",
     "diaDiem": ""
   },
   {
-    "ten": "Đế quốc thực dân Pháp",
-    "thoiGian": "tháng 3",
+    "ten": "Đế quốc Việt Nam Đế quốc Nhật Bản",
+    "thoiGian": "11 tháng 3 1945",
     "diaDiem": ""
   },
   {
-    "ten": "Đế quốc Việt Nam",
-    "thoiGian": "11 tháng 3",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Cách mạng tháng Tám",
-    "thoiGian": "14 tháng 8 - 30 tháng 8",
+    "ten": "cách mạng tháng Tám",
+    "thoiGian": "14 tháng 8 - 30 tháng 8 1945",
     "diaDiem": ""
   },
   {
     "ten": "Đế quốc Việt Nam",
-    "thoiGian": "23 tháng 8",
+    "thoiGian": "23 tháng 8 1945",
     "diaDiem": ""
   },
   {
-    "ten": "Bảo Đại",
-    "thoiGian": "30 tháng 8",
+    "ten": "Bảo Đại thoái vị",
+    "thoiGian": "30 tháng 8 1945",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1945",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Hồ Chí Minh",
-    "thoiGian": "2 tháng 9",
+    "ten": "Hồ Chí Minh Việt Nam Dân chủ Cộng hòa",
+    "thoiGian": "2 tháng 9 1945",
     "diaDiem": ""
   },
   {
     "ten": "Bình dân học vụ",
-    "thoiGian": "8 tháng 9",
+    "thoiGian": "8 tháng 9 1945",
     "diaDiem": ""
   },
   {
-    "ten": "Sài Gòn",
-    "thoiGian": "23 tháng 9",
+    "ten": "Sài Gòn chiến tranh xâm lược Việt Nam lần 2",
+    "thoiGian": "23 tháng 9 1945",
     "diaDiem": ""
   },
   {
-    "ten": "Trần Văn Giàu",
-    "thoiGian": "23 tháng 9",
+    "ten": "Trần Văn Giàu Nam Bộ kháng chiến",
+    "thoiGian": "23 tháng 9 1945",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1946",
+    "ten": "Tổng tuyển cử Quốc hội đầu tiên",
+    "thoiGian": "6 tháng 1 1946",
     "diaDiem": ""
   },
   {
-    "ten": "Bầu cử Quốc hội Việt Nam khóa I",
-    "thoiGian": "6 tháng 1",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Đế quốc thực dân Pháp",
-    "thoiGian": "26 tháng 3",
+    "ten": "Pháp Cộng hòa Tự trị Nam Kỳ Liên hiệp Pháp Sài Gòn",
+    "thoiGian": "26 tháng 3 1946",
     "diaDiem": ""
   },
   {
     "ten": "Tạm ước Việt - Pháp",
-    "thoiGian": "14 tháng 9",
+    "thoiGian": "14 tháng 9 1946",
     "diaDiem": ""
   },
   {
-    "ten": "Hồ Chí Minh",
-    "thoiGian": "19 tháng 12",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1947",
+    "ten": "Hồ Chí Minh Toàn quốc kháng chiến",
+    "thoiGian": "19 tháng 12 1946",
     "diaDiem": ""
   },
   {
     "ten": "Chiến dịch Việt Bắc Thu - Đông 1947",
-    "thoiGian": "7 tháng 10 - 22 tháng 12",
+    "thoiGian": "7 tháng 10 - 22 tháng 12 1947",
     "diaDiem": "Việt Bắc Thu  Đông 1947"
   },
   {
-    "ten": "",
-    "thoiGian": "1949",
+    "ten": "Pháp Quốc gia Việt Nam Bảo Đại Sài Gòn",
+    "thoiGian": "14 tháng 6 1949",
     "diaDiem": ""
   },
   {
-    "ten": "Pháp",
-    "thoiGian": "14 tháng 6",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1950",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Mỹ",
-    "thoiGian": "8 tháng 5",
+    "ten": "Mỹ Việt Nam",
+    "thoiGian": "8 tháng 5 1950",
     "diaDiem": ""
   },
   {
     "ten": "Chiến dịch Biên giới",
-    "thoiGian": "16 tháng 9–17 tháng 10",
+    "thoiGian": "16 tháng 9–17 tháng 10 1950",
     "diaDiem": "Biên giới"
   },
   {
-    "ten": "",
-    "thoiGian": "1954",
-    "diaDiem": ""
-  },
-  {
     "ten": "Chiến dịch Điện Biên Phủ",
-    "thoiGian": "13 tháng 3 - 7 tháng 5",
+    "thoiGian": "13 tháng 3 - 7 tháng 5 1954",
     "diaDiem": "Điện Biên Phủ"
   },
   {
-    "ten": "Hiệp định Genève, 1954",
-    "thoiGian": "20 tháng 7",
+    "ten": "Hiệp định Genève",
+    "thoiGian": "20 tháng 7 1954",
     "diaDiem": ""
   },
   {
-    "ten": "Tiếp quản Thủ đô Hà Nội",
-    "thoiGian": "10 tháng 10",
+    "ten": "Giải phóng Thủ đô",
+    "thoiGian": "10 tháng 10 1954",
     "diaDiem": ""
   },
   {
-    "ten": "Ngô Đình Diệm",
+    "ten": "Ngô Đình Diệm Bảo Đại Tổng thống Việt Nam Cộng hòa",
     "thoiGian": "1955",
     "diaDiem": ""
   },
   {
-    "ten": "Phong trào Đồng khởi",
+    "ten": "Đồng khởi",
     "thoiGian": "1959–1960",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1960",
-    "diaDiem": ""
-  },
-  {
     "ten": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
-    "thoiGian": "20 tháng 12",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1961",
+    "thoiGian": "20 tháng 12 1960",
     "diaDiem": ""
   },
   {
     "ten": "Quân Giải phóng miền Nam Việt Nam",
-    "thoiGian": "15 tháng 12",
+    "thoiGian": "15 tháng 12 1961",
     "diaDiem": ""
   },
   {
-    "ten": "Kế hoạch Staley-Taylor",
+    "ten": "Chiến tranh đặc biệt",
     "thoiGian": "1961–1965",
-    "diaDiem": ""
+    "diaDiem": "đặc biệt"
   },
   {
     "ten": "Ngô Đình Diệm",
@@ -935,19 +780,14 @@
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1965",
+    "ten": "Mỹ miền Nam Việt Nam",
+    "thoiGian": "8 tháng 3 1965",
     "diaDiem": ""
   },
   {
-    "ten": "Hoa Kỳ",
-    "thoiGian": "8 tháng 3",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Chiến tranh cục bộ (Chiến tranh Việt Nam)",
+    "ten": "Chiến tranh cục bộ",
     "thoiGian": "1965–1968",
-    "diaDiem": "cục bộ Việt Nam"
+    "diaDiem": "cục bộ"
   },
   {
     "ten": "Việt Nam hóa chiến tranh",
@@ -955,84 +795,54 @@
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1969",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Cộng hòa Miền Nam Việt Nam",
-    "thoiGian": "8 tháng 6",
+    "ten": "Cộng hòa Miền Nam Việt Nam Tây Ninh",
+    "thoiGian": "8 tháng 6 1969",
     "diaDiem": ""
   },
   {
     "ten": "Hồ Chí Minh",
-    "thoiGian": "2 tháng 9",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1972",
+    "thoiGian": "2 tháng 9 1969",
     "diaDiem": ""
   },
   {
     "ten": "Chiến dịch Điện Biên Phủ trên không",
-    "thoiGian": "18 tháng 12 - 30 tháng 12",
+    "thoiGian": "18 tháng 12 - 30 tháng 12 1972",
     "diaDiem": "Điện Biên Phủ trên không"
   },
   {
-    "ten": "",
-    "thoiGian": "1973",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Hiệp định Paris 1973",
-    "thoiGian": "27 tháng 1",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1975",
+    "ten": "Hiệp định Paris Việt Nam",
+    "thoiGian": "27 tháng 1 1973",
     "diaDiem": ""
   },
   {
     "ten": "Chiến dịch Hồ Chí Minh",
-    "thoiGian": "26 tháng 4 - 2 tháng 5",
+    "thoiGian": "26 tháng 4 - 2 tháng 5 1975",
     "diaDiem": "Hồ Chí Minh"
   },
   {
-    "ten": "Việt Nam Cộng hòa",
-    "thoiGian": "30 tháng 4",
+    "ten": "Việt Nam Cộng hòa Cộng hòa Miền Nam Việt Nam",
+    "thoiGian": "30 tháng 4 1975",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1976",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Việt Nam",
-    "thoiGian": "2 tháng 7",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "1977",
+    "ten": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+    "thoiGian": "2 tháng 7 1976",
     "diaDiem": ""
   },
   {
     "ten": "Liên Hợp Quốc",
-    "thoiGian": "20 tháng 9",
+    "thoiGian": "20 tháng 9 1977",
     "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh biên giới Tây Nam",
+    "ten": "chiến tranh biên giới Tây Nam",
     "thoiGian": "1975–1979",
-    "diaDiem": "biên giới Tây Nam"
+    "diaDiem": ""
   },
   {
-    "ten": "Chiến tranh biên giới Việt–Trung 1979",
+    "ten": "chiến tranh biên giới phía Bắc",
     "thoiGian": "1979",
-    "diaDiem": "biên giới Việt–Trung "
+    "diaDiem": ""
   },
   {
     "ten": "Đổi Mới",
@@ -1040,52 +850,32 @@
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1991",
+    "ten": "bình thường hóa quan hệ với Trung Quốc",
+    "thoiGian": "7 tháng 11 1991",
     "diaDiem": ""
   },
   {
-    "ten": "Quan hệ Trung Quốc – Việt Nam",
-    "thoiGian": "7 tháng 11",
+    "ten": "bình thường hóa quan hệ với Mỹ",
+    "thoiGian": "11 tháng 7 1995",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1995",
+    "ten": "ASEAN",
+    "thoiGian": "28 tháng 7 1995",
     "diaDiem": ""
   },
   {
-    "ten": "Bình thường hóa quan hệ ngoại giao Hoa Kỳ - Việt Nam",
-    "thoiGian": "11 tháng 7",
+    "ten": "APEC",
+    "thoiGian": "14 tháng 11 1998",
     "diaDiem": ""
   },
   {
-    "ten": "Hiệp hội các quốc gia Đông Nam Á",
-    "thoiGian": "28 tháng 7",
+    "ten": "WTO",
+    "thoiGian": "11 tháng 1 2007",
     "diaDiem": ""
   },
   {
-    "ten": "",
-    "thoiGian": "1998",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Diễn đàn Hợp tác Kinh tế châu Á - Thái Bình Dương",
-    "thoiGian": "14 tháng 11",
-    "diaDiem": ""
-  },
-  {
-    "ten": "",
-    "thoiGian": "2007",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Tổ chức Thương mại Thế giới",
-    "thoiGian": "11 tháng 1",
-    "diaDiem": ""
-  },
-  {
-    "ten": "Đại dịch COVID-19 tại Việt Nam",
+    "ten": "Đại dịch COVID-19",
     "thoiGian": "2020–2022",
     "diaDiem": ""
   }

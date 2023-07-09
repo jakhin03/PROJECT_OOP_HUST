@@ -10,6 +10,7 @@ import org.jsoup.select.Elements;
 
 import com.project.scraper.AScraper;
 import com.project.scraper.IScraper;
+import com.project.utils.HasNumber;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.project.historydatabase.event.*;
@@ -29,22 +30,22 @@ public class WikiEvent extends AScraper implements IScraper, IDataToScrape{
 	 
 	@Override
 	public void scrape() throws IOException {
-		// TODO Auto-generated method stub
 		String tempStrTime = "";
 		Element mainPage = this.doc.getElementById("bodyContent");
 		Elements events = mainPage.select("#mw-content-text > div.mw-parser-output > p, dd");
-		System.out.println(events);
 
 		for (Element event : events) {
-		    String strTime = event.selectFirst("b") != null ? event.selectFirst("b").text() : "";
-		    String name = event.selectFirst("a") != null ? event.selectFirst("a").attr("title") : "";
-		
-			
-		    if (event.tagName().equals("p") && !strTime.isEmpty()) {
-		        tempStrTime = strTime;
-		    } else if (event.tagName().equals("dd") && !name.isEmpty()) {
-		        strTime =  strTime +tempStrTime + " " ;
-		    }
+			String name = event.select("a").text();
+			if (name.length() == 0) {
+				tempStrTime = event.select("b").text();
+				tempStrTime = HasNumber.hasNumber(tempStrTime);
+				continue;
+			}
+			String strTime = event.select("b").text();
+			if (HasNumber.hasNumber(strTime) == "")
+				continue;
+			if (scrapeTime(strTime) == "")
+				strTime += (" " + tempStrTime);
 			String destination = scrapeDestination(name, strTime);
 			String relatedFigure = scrapeFigure(name, strTime);
 			Event e = new Event();
@@ -52,32 +53,10 @@ public class WikiEvent extends AScraper implements IScraper, IDataToScrape{
 			e.setThoiGian(strTime);
 			e.setDiaDiem(destination);
 			e.setNhanVatLienQuan(relatedFigure);
+			
 			WikiEvent.add(e);
-			System.out.println();
-			System.out.println(strTime + ": " + name);
 		}
 		
-//		for (Element event : events) {
-//			String name = event.select("a").attr("");
-//			if (name.length() == 0) {
-//				tempStrTime = event.select("b").text();
-//				if (tempStrTime.matches(".*\\d.*")) continue;
-//			}
-//			String strTime = event.select("b").text();
-//			if (strTime.matches(".*\\d.*")) continue;
-//			if (scrapeTime(strTime) == "") strTime += (" " + tempStrTime);
-//			
-//			String destination = scrapeDestination(name, strTime);
-//			String relatedFigure = scrapeFigure(name, strTime);
-//			Event e = new Event();
-//			e.setTen(name);
-//			e.setThoiGian(strTime);
-//			e.setDiaDiem(destination);
-//			e.setNhanVatLienQuan(relatedFigure);
-//			WikiEvent.add(e);
-//			System.out.println();
-//			System.out.println(strTime + ": " + name);
-//		}
 	}
 	
 	public static void main(String args[]) throws IOException, InterruptedException {
