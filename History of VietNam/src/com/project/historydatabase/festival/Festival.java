@@ -8,6 +8,7 @@ public class Festival {
 	private String diaDiem;
 	private Character character;
 	private String noiDung;
+	
 
 	public Festival(String tenLehoi, String thoiGian, String diaDiem) {
 		this.tenLeHoi = tenLehoi;

@@ -211,7 +211,7 @@ public class HistoryGUI {
 	        Label namSinh = new Label("Năm sinh: " + curSelect.getNamSinh());
 	        Label namMat = new Label("Năm mất: " + curSelect.getNamMat());
 	        String strTrieuDai = "";
-	        ArrayList<Dynasty> dynasties = new ArrayList<Dynasty>();
+	        LinkedList<Dynasty> dynasties = new LinkedList<Dynasty>();
 	        for (int i = 0; i < curSelect.getTrieuDai().size(); i++) {
 
 	            strTrieuDai += curSelect.getTrieuDai().get(i).getName() + ",";

@@ -55,6 +55,7 @@ public interface IDataToScrape {
 		}
 		return "";
 	}
+	
 }
 
 	
