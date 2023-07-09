@@ -1,7 +1,7 @@
 package com.project.historydatabase.figure;
 
 import com.project.historydatabase.dynasty.*;
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Character extends Figure {
     private String queQuan;
@@ -11,7 +11,7 @@ public class Character extends Figure {
     private String namDoTrangNguyen;
     private String tenKhac;
     private King doiVua;
-    private ArrayList<Dynasty> trieuDai = new ArrayList<Dynasty>();
+    private LinkedList<Dynasty> trieuDai = new LinkedList<>();
     
     public Character() {
     }
@@ -34,7 +34,7 @@ public class Character extends Figure {
 		this.namDoTrangNguyen = namDoTrangNguyen;
 	}
 	
-	public Character(String ten, String namSinh, String namMat, String queQuan, String ghiChu, String tenKhac, ArrayList<Dynasty> trieuDai) {
+	public Character(String ten, String namSinh, String namMat, String queQuan, String ghiChu, String tenKhac, LinkedList<Dynasty> trieuDai) {
 		super(ten, namSinh, namMat);
 		this.queQuan = queQuan;
 		this.ghiChu = ghiChu;
@@ -107,11 +107,11 @@ public class Character extends Figure {
         this.doiVua = doiVua;
     }
     
-    public ArrayList<Dynasty> getTrieuDai() {
+    public LinkedList<Dynasty> getTrieuDai() {
 		return trieuDai;
 	}
 
-	public void setTrieuDai(ArrayList<Dynasty> trieuDai) {
-		this.trieuDai = trieuDai;
+	public void setTrieuDai(LinkedList<Dynasty> dynasties) {
+		this.trieuDai = dynasties;
 	}
 }
