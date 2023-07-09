@@ -20,9 +20,8 @@ public interface IDataToScrape {
 		for (String s : arrData) {
 			if (s.matches("[0-9]{3}$") || s.matches("[0-9]{4}$"))
 				isYear = true;
-			numYear++;
-			if (numYear > 1)
-				years.append(" - ");
+				numYear++;
+			if (numYear > 1) years.append(" - ");
 			years.append(s);
 		}
 		if (!isYear) return "";
@@ -31,7 +30,7 @@ public interface IDataToScrape {
 	
 	
 	default String scrapeDestination(String data, String strToDelete) {
-		final ArrayList<String> keywords = new ArrayList<>(Arrays.asList("Trận ", "Chiến dịch ", "Biến cố ", "Chiến tranh ", "Văn hóa "));
+		final ArrayList<String> keywords = new ArrayList<>(Arrays.asList("Trận ", "Hải chiến ", "Chiến dịch ", "Biến cố ", "Chiến tranh ", "Văn hóa "));
 		boolean needEdit = false;
 		data = data.replace(strToDelete, "");
 
@@ -39,7 +38,7 @@ public interface IDataToScrape {
 			if (data.contains(keyword)) {
 				needEdit = true;
 				data = data.replace(keyword, "");
-				data = data.replaceAll("[-()]", "");
+				data = data.replaceAll("[(,)]", "");
 			}
 		}
 		if (needEdit)

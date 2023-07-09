@@ -31,8 +31,8 @@ public class HistoryDatabase {
 		
 	    }
 
-    public void addDynasty(Dynasty dynasty) {
-    }
+//    public void addDynasty(Dynasty dynasty) {
+//    }
 }
 //    private List<Dynasty> dynasties;
 //    private List<Figure> figures;

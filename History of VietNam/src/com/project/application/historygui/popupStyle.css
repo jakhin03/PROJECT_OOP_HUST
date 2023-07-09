@@ -1,9 +1,3 @@
 .text-color {
-  -fx-text-fill: white;
-  -fx-font-size: 15px;
-}
-
-.border-style {
-  -fx-border-color: red;
-  -fx-border-width: 2px;
+  -fx-font-size: 18px;
 }

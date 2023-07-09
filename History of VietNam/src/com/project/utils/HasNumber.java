@@ -6,7 +6,8 @@ public class HasNumber {
 		for (char c : chars) {
 			if (Character.isDigit(c))
 				return data;
-		}
+			}	
 		return "";
 	}
 }
+
