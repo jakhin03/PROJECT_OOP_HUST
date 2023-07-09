@@ -30,7 +30,10 @@ public class HistoryDatabase {
 
 		
 	    }
+
+    public void addDynasty(Dynasty dynasty) {
     }
+}
 //    private List<Dynasty> dynasties;
 //    private List<Figure> figures;
 //    private List<Festival> festivals;
