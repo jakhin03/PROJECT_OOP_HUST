@@ -1,6 +1,6 @@
 [
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Kinh_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Kinh_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Kinh Dương Vương",
     "nienHieu": "không có",
@@ -10,7 +10,7 @@
     "ten": "Kinh Dương Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n",
     "mieuHieu": "không có",
     "thuyHieu": "Lạc Long Quân",
     "nienHieu": "không có",
@@ -20,7 +20,7 @@
     "ten": "Lạc Long Quân"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_I",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_I",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Quốc Vương",
     "nienHieu": "không có",
@@ -30,7 +30,7 @@
     "ten": "Hùng Vương thứ nhất"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_II",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_II",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Hiền Vương",
     "nienHieu": "không có",
@@ -40,7 +40,7 @@
     "ten": "Hùng Vương thứ hai"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_III",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_III",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Lân Vương",
     "nienHieu": "không có",
@@ -50,7 +50,7 @@
     "ten": "Hùng Vương thứ ba"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_IV",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_IV",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Diệp Vương",
     "nienHieu": "không có",
@@ -60,7 +60,7 @@
     "ten": "Hùng Vương thứ tư"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/w/index.php?title\u003dH%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_5\u0026action\u003dedit\u0026redlink\u003d1",
+    "articleLink": "https://vi.wikipedia.org/w/index.php?title\u003dH%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_5\u0026action\u003dedit\u0026redlink\u003d1",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Hy Vương",
     "nienHieu": "không có",
@@ -70,7 +70,7 @@
     "ten": "Hùng Vương thứ năm"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Huy Vương",
     "nienHieu": "không có",
@@ -80,7 +80,7 @@
     "ten": "Hùng Vương thứ sáu"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Lang_Li%C3%AAu",
+    "articleLink": "https://vi.wikipedia.org/wiki/Lang_Li%C3%AAu",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Chiêu Vương",
     "nienHieu": "không có",
@@ -90,7 +90,7 @@
     "ten": "Hùng Vương thứ bảy"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VIII",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VIII",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Vĩ Vương",
     "nienHieu": "không có",
@@ -100,7 +100,7 @@
     "ten": "Hùng Vương thứ tám"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_IX",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_IX",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Định Vương",
     "nienHieu": "không có",
@@ -110,7 +110,7 @@
     "ten": "Hùng Vương thứ chín"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_X",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_X",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Uy Vương",
     "nienHieu": "không có",
@@ -120,7 +120,7 @@
     "ten": "Hùng Vương thứ mười"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XI",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XI",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Trinh Vương",
     "nienHieu": "không có",
@@ -130,7 +130,7 @@
     "ten": "Hùng Vương thứ 11"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XII",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XII",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Vũ Vương",
     "nienHieu": "không có",
@@ -140,7 +140,7 @@
     "ten": "Hùng Vương thứ 12"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIII",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIII",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Việt Vương",
     "nienHieu": "không có",
@@ -150,7 +150,7 @@
     "ten": "Hùng Vương thứ 13"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIV",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIV",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Anh Vương",
     "nienHieu": "không có",
@@ -160,7 +160,7 @@
     "ten": "Hùng Vương thứ 14"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XV",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XV",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Triêu Vương",
     "nienHieu": "không có",
@@ -170,7 +170,7 @@
     "ten": "Hùng Vương thứ 15"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVI",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVI",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Tạo Vương",
     "nienHieu": "không có",
@@ -180,7 +180,7 @@
     "ten": "Hùng Vương thứ 16"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Nghị Vương",
     "nienHieu": "không có",
@@ -190,7 +190,7 @@
     "ten": "Hùng Vương thứ 17"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVIII",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVIII",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Duệ Vương Hùng Tuyền Vương",
     "nienHieu": "không có",
@@ -200,7 +200,7 @@
     "ten": "Hùng Vương thứ 18"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/w/index.php?title\u003dH%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIX\u0026action\u003dedit\u0026redlink\u003d1",
+    "articleLink": "https://vi.wikipedia.org/w/index.php?title\u003dH%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XIX\u0026action\u003dedit\u0026redlink\u003d1",
     "mieuHieu": "không có",
     "thuyHieu": "Hùng Kính Vương",
     "nienHieu": "không có",
@@ -210,7 +210,7 @@
     "ten": "Hùng Vương thứ 19"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_V%C5%A9_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_V%C5%A9_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Vũ Vương Vũ Đế",
     "nienHieu": "không có",
@@ -220,7 +220,7 @@
     "ten": "Triệu Vũ Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_V%C4%83n_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_V%C4%83n_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Văn Vương Văn Đế",
     "nienHieu": "không có",
@@ -230,7 +230,7 @@
     "ten": "Triệu Văn Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_Minh_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_Minh_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Minh Vương",
     "nienHieu": "không có",
@@ -240,7 +240,7 @@
     "ten": "Triệu Minh Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_Ai_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_Ai_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Ai Vương",
     "nienHieu": "không có",
@@ -250,7 +250,7 @@
     "ten": "Triệu Ai Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Dương Vương Thuật Dương Vương Vệ Dương vương Vệ Dương hầu",
     "nienHieu": "không có",
@@ -260,7 +260,7 @@
     "ten": "Triệu Dương Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Hai_B%C3%A0_Tr%C6%B0ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Hai_B%C3%A0_Tr%C6%B0ng",
     "mieuHieu": "không có",
     "thuyHieu": "Trinh Linh Chi Phu Nhân",
     "nienHieu": "không có",
@@ -270,7 +270,7 @@
     "ten": "Trưng Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "Nam Đế, Nam Việt Đế",
     "nienHieu": "Thiên Đức (544–548)",
@@ -280,7 +280,7 @@
     "ten": "Lý Nam Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Nam Việt Quốc Vương, Dạ Trạch Vương Thần Vũ Hoàng Đế",
     "nienHieu": "không có",
@@ -290,7 +290,7 @@
     "ten": "Triệu Việt Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Thi%C3%AAn_B%E1%BA%A3o",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Thi%C3%AAn_B%E1%BA%A3o",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -300,7 +300,7 @@
     "ten": "Đào Lang Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "Nam Đế Anh Liệt Nhân Hiếu Khâm Minh Thánh Vũ Hoàng Đế",
     "nienHieu": "không có",
@@ -310,7 +310,7 @@
     "ten": "Hậu Lý Nam Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_S%C6%B0_L%E1%BB%A3i",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_S%C6%B0_L%E1%BB%A3i",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -320,7 +320,7 @@
     "ten": "Lý Sư Lợi"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "Đại Đế, Hắc Đế",
     "nienHieu": "không có",
@@ -330,7 +330,7 @@
     "ten": "Mai Hắc Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Mai_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/Mai_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -340,7 +340,7 @@
     "ten": "Mai Thiếu Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/B%E1%BA%A1ch_%C4%90%E1%BA%A7u_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/B%E1%BA%A1ch_%C4%90%E1%BA%A7u_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -350,7 +350,7 @@
     "ten": "Bạch Đầu Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Ph%C3%B9ng_H%C6%B0ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Ph%C3%B9ng_H%C6%B0ng",
     "mieuHieu": "không có",
     "thuyHieu": "Bố Cái Đại Vương",
     "nienHieu": "không có",
@@ -360,7 +360,7 @@
     "ten": "Phùng Hưng"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Ph%C3%B9ng_An",
+    "articleLink": "https://vi.wikipedia.org/wiki/Ph%C3%B9ng_An",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -370,7 +370,7 @@
     "ten": "Phùng An"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_D%E1%BB%A5",
+    "articleLink": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_D%E1%BB%A5",
     "mieuHieu": "Tiên Chủ",
     "thuyHieu": "Tiên Vương",
     "nienHieu": "không có",
@@ -380,7 +380,7 @@
     "ten": "Khúc Tiên Chủ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_H%E1%BA%A1o",
+    "articleLink": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_H%E1%BA%A1o",
     "mieuHieu": "Trung Chủ",
     "thuyHieu": "Trung Vương",
     "nienHieu": "không có",
@@ -390,7 +390,7 @@
     "ten": "Khúc Trung Chủ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_M%E1%BB%B9",
+    "articleLink": "https://vi.wikipedia.org/wiki/Kh%C3%BAc_Th%E1%BB%ABa_M%E1%BB%B9",
     "mieuHieu": "Hậu Chủ",
     "thuyHieu": "Hậu Vương",
     "nienHieu": "không có",
@@ -400,7 +400,7 @@
     "ten": "Khúc Hậu Chủ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87",
+    "articleLink": "https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -410,7 +410,7 @@
     "ten": "Dương Chính Công"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Ki%E1%BB%81u_C%C3%B4ng_Ti%E1%BB%85n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Ki%E1%BB%81u_C%C3%B4ng_Ti%E1%BB%85n",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -420,7 +420,7 @@
     "ten": "Kiều Công Tiễn"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Ti%E1%BB%81n_Ng%C3%B4_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Ti%E1%BB%81n_Ng%C3%B4_V%C6%B0%C6%A1ng",
     "mieuHieu": "Tiên Chủ",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -430,7 +430,7 @@
     "ten": "Tiền Ngô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_B%C3%ACnh_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_B%C3%ACnh_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Trương Dương Công",
     "nienHieu": "không có",
@@ -440,7 +440,7 @@
     "ten": "Dương Bình Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Thi%C3%AAn_S%C3%A1ch_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Thi%C3%AAn_S%C3%A1ch_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -450,7 +450,7 @@
     "ten": "Thiên Sách Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nam_T%E1%BA%A5n_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nam_T%E1%BA%A5n_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -460,7 +460,7 @@
     "ten": "Nam Tấn Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Ng%C3%B4_X%C6%B0%C6%A1ng_X%C3%AD",
+    "articleLink": "https://vi.wikipedia.org/wiki/Ng%C3%B4_X%C6%B0%C6%A1ng_X%C3%AD",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -470,7 +470,7 @@
     "ten": "Ngô Sứ Quân"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/%C4%90inh_Ti%C3%AAn_Ho%C3%A0ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/%C4%90inh_Ti%C3%AAn_Ho%C3%A0ng",
     "mieuHieu": "không có",
     "thuyHieu": "Tiên Hoàng Đế Đại Thắng Minh Hoàng Đế",
     "nienHieu": "Thái Bình (970-979)",
@@ -480,7 +480,7 @@
     "ten": "Đinh Tiên Hoàng"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/%C4%90inh_Ph%E1%BA%BF_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/%C4%90inh_Ph%E1%BA%BF_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "Phế Đế Thiếu Đế",
     "nienHieu": "Thái Bình (979-980)",
@@ -490,7 +490,7 @@
     "ten": "Đinh Phế Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh",
     "mieuHieu": "không có",
     "thuyHieu": "Đại Hành Hoàng Đế Minh Càn Ứng Vận Thần Vũ Thăng Bình Chí Nhân Quảng Hiếu Hoàng đế",
     "nienHieu": "Thiên Phúc (980–988) Hưng Thống (989–993) Ứng Thiên (994–1005)",
@@ -500,7 +500,7 @@
     "ten": "Lê Đại Hành"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng_(Ti%E1%BB%81n_L%C3%AA)",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng_(Ti%E1%BB%81n_L%C3%AA)",
     "mieuHieu": "Trung Tông",
     "thuyHieu": "không có",
     "nienHieu": "Ứng Thiên (1005–1005)",
@@ -510,7 +510,7 @@
     "ten": "Lê Trung Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Long_%C4%90%C4%A9nh",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Long_%C4%90%C4%A9nh",
     "mieuHieu": "không có",
     "thuyHieu": "Khai Thiên Ứng Vận Thánh Văn Thần Vũ Tắc Thiên Sùng Đạo Đại Thắng Minh Quang Hiếu Hoàng Đế Ngọa Triều Hoàng Đế",
     "nienHieu": "Ứng Thiên (1005–1007) Cảnh Thụy (1008–1009)",
@@ -520,7 +520,7 @@
     "ten": "Lê Ngọa Triều"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%C3%A1i_T%E1%BB%95",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%C3%A1i_T%E1%BB%95",
     "mieuHieu": "Thái Tổ",
     "thuyHieu": "Thần Vũ Hoàng Đế",
     "nienHieu": "Thuận Thiên (1010–1028)",
@@ -530,7 +530,7 @@
     "ten": "Lý Thái Tổ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%C3%A1i_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%C3%A1i_T%C3%B4ng",
     "mieuHieu": "Thái Tông",
     "thuyHieu": "Từ Hiếu Hoàng đế",
     "nienHieu": "Thiên Thành (1028–1033), Thông Thụy (1034–1038), Càn Phù Hữu Đạo (1039–1041), Minh Đạo (1042–1043), Thiên Cảm Thánh Vũ (1044–1048), Sùng Hưng Đại Bảo (1049–1054).",
@@ -540,7 +540,7 @@
     "ten": "Lý Thái Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%C3%A1nh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%C3%A1nh_T%C3%B4ng",
     "mieuHieu": "Thánh Tông",
     "thuyHieu": "Thánh Thần Hoàng đế",
     "nienHieu": "Long Thụy Thái Bình (1054–1058), Chương Thánh Gia Khánh (1059–1065), Long Chương Thiên Tự (1066–1068), Thiên Huống Bảo Tượng (1068–1069), Thần Vũ (1069–1072).",
@@ -550,7 +550,7 @@
     "ten": "Lý Thánh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Nh%C3%A2n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Nh%C3%A2n_T%C3%B4ng",
     "mieuHieu": "Nhân Tông",
     "thuyHieu": "Hiếu Từ Thánh Thần Văn Vũ Hoàng Đế",
     "nienHieu": "Thái Ninh (1072–1076), Anh Vũ Chiêu Thắng (1076–1084), Quảng Hựu (1085–1092), Hội Phong (1092–1100), Long Phù (1101–1109), Hội Tường Đại Khánh (1110–1119), Thiên Phù Duệ Vũ (1120–1126), Thiên Phù Khánh Thọ (1127).",
@@ -560,7 +560,7 @@
     "ten": "Lý Nhân Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%E1%BA%A7n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%E1%BA%A7n_T%C3%B4ng",
     "mieuHieu": "Thần Tông",
     "thuyHieu": "Quảng Văn Sùng Hiếu Khâm Minh Văn Vũ Hoàng Đế",
     "nienHieu": "Thiên Thuận (1128–1132), Thiên Chương Bảo Tự (1133–1138)",
@@ -570,7 +570,7 @@
     "ten": "Lý Thần Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Anh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Anh_T%C3%B4ng",
     "mieuHieu": "Anh Tông",
     "thuyHieu": "Chí Hiếu Hoàng Đế",
     "nienHieu": "Thiệu Minh (1138–1139), Đại Định (1140–1162), Chính Long Bảo Ứng (1163–1173), Thiên Cảm Chí Bảo (1174–1175)",
@@ -580,7 +580,7 @@
     "ten": "Lý Anh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Cao_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Cao_T%C3%B4ng",
     "mieuHieu": "Cao Tông",
     "thuyHieu": "Quang Hiếu Hoàng Đế",
     "nienHieu": "Trinh Phù (1176–1185), Thiên Tư Gia Thụy (1186–1201), Thiên Gia Bảo Hựu (1202–1204), Trị Bình Long Ứng (1205–1210)",
@@ -590,7 +590,7 @@
     "ten": "Lý Cao Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%E1%BA%A9m",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Th%E1%BA%A9m",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -600,7 +600,7 @@
     "ten": "Lý Thẩm"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Hu%E1%BB%87_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Hu%E1%BB%87_T%C3%B4ng",
     "mieuHieu": "Huệ Tông",
     "thuyHieu": "Hoành Hiếu Hoàng đế",
     "nienHieu": "Kiến Gia (1211–1224)",
@@ -610,7 +610,7 @@
     "ten": "Lý Huệ Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Nguy%C3%AAn_V%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Nguy%C3%AAn_V%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Nguyên Vương Văn Vương",
     "nienHieu": "Càn Ninh (1214–1216)",
@@ -620,7 +620,7 @@
     "ten": "Lý Nguyên Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%BD_Chi%C3%AAu_Ho%C3%A0ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%BD_Chi%C3%AAu_Ho%C3%A0ng",
     "mieuHieu": "không có",
     "thuyHieu": "Chiêu Hoàng",
     "nienHieu": "Thiên Chương Hữu Đạo (1224–1225)",
@@ -630,7 +630,7 @@
     "ten": "Lý Chiêu Hoàng"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Th%C3%A1i_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Th%C3%A1i_T%C3%B4ng",
     "mieuHieu": "Thái Tông Thiện Hoàng Văn Hoàng",
     "thuyHieu": "Thống Thiên Ngự Cực Long Công Hậu Đức Hiền Công Hựu Thuận Thánh Văn Thần Vũ Hiếu Nguyên Hoàng Đế",
     "nienHieu": "Kiến Trung (1225–1232) Thiên Ứng Chính Bình (1232–1351) Nguyên Phong (1251–1258)",
@@ -640,7 +640,7 @@
     "ten": "Trần Thái Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Th%C3%A1nh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Th%C3%A1nh_T%C3%B4ng",
     "mieuHieu": "Thánh Tông Nhân Hoàng",
     "thuyHieu": "Huyền Công Thịnh Đức Nhân Minh Văn Vũ Tuyên Hiếu Hoàng Đế",
     "nienHieu": "Thiệu Long (1258–1272) Bảo Phù (1273–1278)",
@@ -650,7 +650,7 @@
     "ten": "Trần Thánh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%C3%A2n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%C3%A2n_T%C3%B4ng",
     "mieuHieu": "Nhân Tông Hiếu Hoàng",
     "thuyHieu": "Pháp Thiên Sùng Đạo Ứng Thế Hóa Dân Long Từ Hiển Hiệu Thánh Văn Thần Vũ Nguyên Minh Duệ Hiếu Hoàng Đế",
     "nienHieu": "Thiệu Bảo (1278–1285) Trùng Hưng (1285–1293)",
@@ -660,7 +660,7 @@
     "ten": "Trần Nhân Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Anh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Anh_T%C3%B4ng",
     "mieuHieu": "Anh Tông Anh Hoàng",
     "thuyHieu": "Hiển Văn Duệ Vũ Khâm Minh Nhân Hiếu Hoàng Đế",
     "nienHieu": "Hưng Long (1293–1314)",
@@ -670,7 +670,7 @@
     "ten": "Trần Anh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Minh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Minh_T%C3%B4ng",
     "mieuHieu": "Minh Tông Ninh Hoàng",
     "thuyHieu": "Chương Nghiêu Văn Triết Hoàng Đế",
     "nienHieu": "Đại Khánh (1314–1323) Khai Thái (1324–1329)",
@@ -680,7 +680,7 @@
     "ten": "Trần Minh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Hi%E1%BA%BFn_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Hi%E1%BA%BFn_T%C3%B4ng",
     "mieuHieu": "Hiến Tông Triết Hoàng",
     "thuyHieu": " Thể Nguyên Ngự Cực Duệ Thánh Chí Hiếu Hoàng Đế",
     "nienHieu": "Khai Hựu (1329–1341)",
@@ -690,7 +690,7 @@
     "ten": "Trần Hiến Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_D%E1%BB%A5_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_D%E1%BB%A5_T%C3%B4ng",
     "mieuHieu": "Dụ Tông Dụ Hoàng",
     "thuyHieu": "Thống Thiên Thể Đạo Nhân Minh Quang Hiếu Hoàng đế",
     "nienHieu": "Thiệu Phong (1341–1357) Đại Trị (1358–1369)",
@@ -700,7 +700,7 @@
     "ten": "Trần Dụ Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%E1%BA%ADt_L%E1%BB%85",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Nh%E1%BA%ADt_L%E1%BB%85",
     "mieuHieu": "không có",
     "thuyHieu": "Hôn Đức Công",
     "nienHieu": "Đại Định (1369–1370)",
@@ -710,7 +710,7 @@
     "ten": "Đại Định Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng",
     "mieuHieu": "Nghệ Tông Nghệ Hoàng Nghĩa Hoàng",
     "thuyHieu": "Quang Nhiên Anh Triết Hoàng Đế Thể Thiên Kiến Cực Thuần Hiếu Hoàng Đế",
     "nienHieu": "Thiệu Khánh (1370–1372)",
@@ -720,7 +720,7 @@
     "ten": "Trần Nghệ Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng",
     "mieuHieu": "Duệ Tông Khâm Hoàng",
     "thuyHieu": "Kế Thiên Ứng Vận Nhân Minh Khâm Hiếu Hoàng Đế",
     "nienHieu": "Long Khánh (1373–1377)",
@@ -730,7 +730,7 @@
     "ten": "Trần Duệ Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Ph%E1%BA%BF_%C4%90%E1%BA%BF_(%C4%90%E1%BA%A1i_Vi%E1%BB%87t)",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Ph%E1%BA%BF_%C4%90%E1%BA%BF_(%C4%90%E1%BA%A1i_Vi%E1%BB%87t)",
     "mieuHieu": "Giản Hoàng",
     "thuyHieu": "Phế Đế",
     "nienHieu": "Xương Phù (1377–1388)",
@@ -740,7 +740,7 @@
     "ten": "Trần Phế Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Thu%E1%BA%ADn_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Thu%E1%BA%ADn_T%C3%B4ng",
     "mieuHieu": "Thuận Tông Nguyên Hoàng",
     "thuyHieu": "không có",
     "nienHieu": "Quang Thái (1388–1398)",
@@ -750,7 +750,7 @@
     "ten": "Trần Thuận Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "Thiếu Đế",
     "nienHieu": "Kiến Tân (1398–1400)",
@@ -760,7 +760,7 @@
     "ten": "Trần Thiếu Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Qu%C3%BD_Ly",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%E1%BB%93_Qu%C3%BD_Ly",
     "mieuHieu": "Quốc Tổ",
     "thuyHieu": "Chương Hoàng",
     "nienHieu": "Thánh Nguyên (1400)",
@@ -770,7 +770,7 @@
     "ten": "Hồ Quý Ly"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%E1%BB%93_H%C3%A1n_Th%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%E1%BB%93_H%C3%A1n_Th%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Thiệu Thành (1401–1402) Khai Đại (1403–1407)",
@@ -780,7 +780,7 @@
     "ten": "Hồ Hán Thương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Nguy%E1%BB%87t_H%E1%BB%93",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BA%A7n_Nguy%E1%BB%87t_H%E1%BB%93",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -790,7 +790,7 @@
     "ten": "Trần Nguyệt Hồ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Hưng Khánh (1407–1409)",
@@ -800,7 +800,7 @@
     "ten": "Giản Định Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%C3%B9ng_Quang_%C4%90%E1%BA%BF",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%C3%B9ng_Quang_%C4%90%E1%BA%BF",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Trùng Quang (1409–1414)",
@@ -810,7 +810,7 @@
     "ten": "Trùng Quang Đế"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%E1%BB%95",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%E1%BB%95",
     "mieuHieu": "Thái Tổ Lam Sơn động chủ",
     "thuyHieu": "Thống Thiên Khải Vận Thánh Đức Thần Công Duệ Văn Anh Vũ Khoan Minh Dũng Trí Hoàng Nghĩa Chí Minh Đại Hiếu Cao Hoàng Đế",
     "nienHieu": "Thuận Thiên (1428–1433)",
@@ -820,7 +820,7 @@
     "ten": "Lê Thái Tổ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1i_T%C3%B4ng",
     "mieuHieu": "Thái Tông Quế Lâm động chủ",
     "thuyHieu": "Kế Thiên Thể Đạo Hiển Đức Thánh Công Khâm Minh Văn Tư Anh Duệ Triết Chiêu Hiến Kiến Trung Văn Hoàng Đế",
     "nienHieu": "Thiệu Bình (1434–1439) Đại Bảo (1440-1442)",
@@ -830,7 +830,7 @@
     "ten": "Lê Thái Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Nh%C3%A2n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Nh%C3%A2n_T%C3%B4ng",
     "mieuHieu": "Nhân Tông",
     "thuyHieu": "Khâm Văn Nhân Hiếu Tuyên Minh Thông Duệ Tuyên Hoàng Đế",
     "nienHieu": "Thái Hòa (1443–1453) Diên Ninh (1454–1459)",
@@ -840,7 +840,7 @@
     "ten": "Lê Nhân Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Nghi_D%C3%A2n",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Nghi_D%C3%A2n",
     "mieuHieu": "không có",
     "thuyHieu": "Lệ Đức Hầu",
     "nienHieu": "Thiên Hưng (1459–1460)",
@@ -850,7 +850,7 @@
     "ten": "Lạng Sơn Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng",
     "mieuHieu": "Thánh Tông Thiên Nam động chủ",
     "thuyHieu": "Sùng Thiên Quảng Vận Cao Minh Quang Chính Chí Đức Đại Công Thánh Văn Thần Vũ Đạt Hiếu Thuần Hoàng Đế",
     "nienHieu": "Quang Thuận (1460–1469) Hồng Đức (1470–1497)",
@@ -860,7 +860,7 @@
     "ten": "Lê Thánh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Hi%E1%BA%BFn_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Hi%E1%BA%BFn_T%C3%B4ng",
     "mieuHieu": "Hiến Tông Thượng Dương động chủ",
     "thuyHieu": "Thể Thiên Ngưng Đạo Mậu Đức Chí Chiêu Văn Thiệu Vũ Tuyên Triết Khâm Thành Chương Hiếu Duệ Hoàng Đế",
     "nienHieu": "Cảnh Thống (1497–1504)",
@@ -870,7 +870,7 @@
     "ten": "Lê Hiến Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_T%C3%BAc_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_T%C3%BAc_T%C3%B4ng",
     "mieuHieu": "Túc Tông Tự Hoàng",
     "thuyHieu": "Chiêu Nghĩa Hiển Nhân Ôn Cung Uyên Mặc Hiếu Doãn Cung Khâm Hoàng Đế",
     "nienHieu": "Thái Trinh (1504)",
@@ -880,7 +880,7 @@
     "ten": "Lê Túc Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Uy_M%E1%BB%A5c",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Uy_M%E1%BB%A5c",
     "mieuHieu": "Quỳnh Đô động chủ",
     "thuyHieu": "Uy Mục Đế",
     "nienHieu": "Đoan Khánh (1505–1509)",
@@ -890,7 +890,7 @@
     "ten": "Lê Uy Mục"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_T%C6%B0%C6%A1ng_D%E1%BB%B1c",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_T%C6%B0%C6%A1ng_D%E1%BB%B1c",
     "mieuHieu": "Nhân Hải động chủ",
     "thuyHieu": "Tương Dực Đế",
     "nienHieu": "Hồng Thuận (1510–1516)",
@@ -900,7 +900,7 @@
     "ten": "Lê Tương Dực"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Quang_Tr%E1%BB%8B",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Quang_Tr%E1%BB%8B",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -910,7 +910,7 @@
     "ten": "Lê Quang Trị"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng",
     "mieuHieu": "Chiêu Tông",
     "thuyHieu": "Thần Hoàng Đế",
     "nienHieu": "Quang Thiệu (1516-1525)",
@@ -920,7 +920,7 @@
     "ten": "Lê Chiêu Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_B%E1%BA%A3ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_B%E1%BA%A3ng",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Đại Đức (1518–1519)",
@@ -930,7 +930,7 @@
     "ten": "Lê Bảng"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Do",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Do",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Thiên Hiến (1519)",
@@ -940,7 +940,7 @@
     "ten": "Lê Do"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Cung_Ho%C3%A0ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Cung_Ho%C3%A0ng",
     "mieuHieu": "không có",
     "thuyHieu": "Cung Hoàng Đế",
     "nienHieu": "Thống Nguyên (1522–1527)",
@@ -950,7 +950,7 @@
     "ten": "Lê Cung Hoàng"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Dung",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Dung",
     "mieuHieu": "Thái Tổ",
     "thuyHieu": "Nhân Minh Cao Hoàng Đế",
     "nienHieu": "Minh Đức (1527–1530)",
@@ -960,7 +960,7 @@
     "ten": "Mạc Thái Tổ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Th%C3%A1i_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Th%C3%A1i_T%C3%B4ng",
     "mieuHieu": "Thái Tông",
     "thuyHieu": "Khâm Triết Văn Hoàng Đế",
     "nienHieu": "Đại Chính (1530–1540)",
@@ -970,7 +970,7 @@
     "ten": "Mạc Thái Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Hi%E1%BA%BFn_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Hi%E1%BA%BFn_T%C3%B4ng",
     "mieuHieu": "Hiến Tông",
     "thuyHieu": "Hiển Hoàng Đế",
     "nienHieu": "Quảng Hòa (1540–1546)",
@@ -980,7 +980,7 @@
     "ten": "Mạc Hiến Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Ch%C3%ADnh_Trung",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Ch%C3%ADnh_Trung",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "không có",
@@ -990,7 +990,7 @@
     "ten": "Mạc Chính Trung"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Tuy%C3%AAn_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_Tuy%C3%AAn_T%C3%B4ng",
     "mieuHieu": "Tuyên Tông",
     "thuyHieu": "Anh Nghị Hoàng Đế Duệ Hoàng Đế",
     "nienHieu": "Vĩnh Định (1547) Cảnh Lịch (1548–1553) Quang Bảo (1554–1561)",
@@ -1000,7 +1000,7 @@
     "ten": "Mạc Tuyên Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_M%E1%BA%ADu_H%E1%BB%A3p",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_M%E1%BA%ADu_H%E1%BB%A3p",
     "mieuHieu": "Mục Tông Anh Tổ",
     "thuyHieu": "An Thiên Huy Địa Trang Văn Cẩn Vũ Bình Định Huệ Cương Hiếu Tĩnh Hoàng Đế",
     "nienHieu": "Thuần Phúc (1562–1565) Sùng Khang (1566–1577) Diên Thành (1578–1585) Đoan Thái (1586–1587) Hưng Trị (1588–1590) Hồng Ninh (1591–1592)",
@@ -1010,7 +1010,7 @@
     "ten": "Mạc Mục Tông Mạc Anh Tổ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_To%C3%A0n",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_To%C3%A0n",
     "mieuHieu": "Cảnh Tông",
     "thuyHieu": "Khai Thiên Xung Địa An Văn Đoạt Vũ Thành Hoàng Đế",
     "nienHieu": "Vũ An (1592–1592)",
@@ -1020,7 +1020,7 @@
     "ten": "Mạc Cảnh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Ch%E1%BB%89",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Ch%E1%BB%89",
     "mieuHieu": "Mẫn Tông",
     "thuyHieu": "Hoài Nghị Minh Huấn Trinh Hoàng Đế",
     "nienHieu": "Bảo Định (1592–1593) Khang Hựu (1593–1593)",
@@ -1030,7 +1030,7 @@
     "ten": "Mạc Mẫn Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%E1%BA%A1i_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_%C4%90%E1%BA%A1i_T%C3%B4ng",
     "mieuHieu": "Đại Tông",
     "thuyHieu": "Khởi Thiên Đĩnh Địa Khắc Văn Định Vũ Linh Hoàng Đế",
     "nienHieu": "Càn Thống (1593–1625)",
@@ -1040,7 +1040,7 @@
     "ten": "Mạc Đại Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Khoan",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Khoan",
     "mieuHieu": "Quang Tổ",
     "thuyHieu": "Hoà Thiên Phù Địa Độ Văn Khánh Vũ Huệ Nguyên Hoàng Đế",
     "nienHieu": "Long Thái (1623–1638)",
@@ -1050,7 +1050,7 @@
     "ten": "Mạc Quang Tổ"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_V%C5%A9",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_V%C5%A9",
     "mieuHieu": "Minh Tông",
     "thuyHieu": "Trang Thiên Huệ Địa Cảnh Văn Di Vũ Khai Hoàng Đế",
     "nienHieu": "Thuận Đức (1638–1677)",
@@ -1060,7 +1060,7 @@
     "ten": "Mạc Minh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_H%E1%BA%BB",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_H%E1%BA%BB",
     "mieuHieu": "Quý Tông",
     "thuyHieu": "Hoàn Thiên Thanh Địa Đoạt Văn Dương Vũ Huệ Đại Vương",
     "nienHieu": "Vĩnh Xương (1677–1681)",
@@ -1070,7 +1070,7 @@
     "ten": "Mạc Quý Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Quang",
+    "articleLink": "https://vi.wikipedia.org/wiki/M%E1%BA%A1c_K%C3%ADnh_Quang",
     "mieuHieu": "Đức Tông",
     "thuyHieu": "Thiên Địa Đại Bảo Văn Vũ Độ Đại Vương",
     "nienHieu": "không có",
@@ -1080,7 +1080,7 @@
     "ten": "Mạc Đức Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Trang_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Trang_T%C3%B4ng",
     "mieuHieu": "Trang Tông",
     "thuyHieu": "Dụ Hoàng Đế",
     "nienHieu": "Nguyên Hòa (1533–1548)",
@@ -1090,7 +1090,7 @@
     "ten": "Lê Trang Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng_(H%E1%BA%ADu_L%C3%AA)",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Trung_T%C3%B4ng_(H%E1%BA%ADu_L%C3%AA)",
     "mieuHieu": "Trung Tông",
     "thuyHieu": "Vũ Hoàng Đế",
     "nienHieu": "Thuận Bình (1548–1556)",
@@ -1100,7 +1100,7 @@
     "ten": "Lê Trung Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Anh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Anh_T%C3%B4ng",
     "mieuHieu": "Anh Tông",
     "thuyHieu": "Tuấn Hoàng Đế",
     "nienHieu": "Thiên Hựu (1556-1557) Chính trị (1558–1571) Hồng Phúc (1572–1573)",
@@ -1110,7 +1110,7 @@
     "ten": "Lê Anh Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BA%BF_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BA%BF_T%C3%B4ng",
     "mieuHieu": "Thế Tông",
     "thuyHieu": "Nghị Hoàng Đế",
     "nienHieu": "Gia Thái (1573–1577) Quang Hưng (1578–1599)",
@@ -1120,7 +1120,7 @@
     "ten": "Lê Thế Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_K%C3%ADnh_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_K%C3%ADnh_T%C3%B4ng",
     "mieuHieu": "Kính Tông",
     "thuyHieu": "Huệ Hoàng Đế Giản Huy Đế",
     "nienHieu": "Thận Đức (1600-1600) Hoằng Định (1601-1619)",
@@ -1130,7 +1130,7 @@
     "ten": "Lê Kính Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BA%A7n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BA%A7n_T%C3%B4ng",
     "mieuHieu": "Thần Tông",
     "thuyHieu": "Uyên Hoàng Đế",
     "nienHieu": "Vĩnh Tộ (1620––1628) Đức Long (1629–1634) Dương Hoà (1635–1643)",
@@ -1140,7 +1140,7 @@
     "ten": "Lê Thần Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Ch%C3%A2n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Ch%C3%A2n_T%C3%B4ng",
     "mieuHieu": "Chân Tông",
     "thuyHieu": "Thuận Hoàng Đế",
     "nienHieu": "Phúc Thái (1643–1649)",
@@ -1150,7 +1150,7 @@
     "ten": "Lê Chân Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BA%A7n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Th%E1%BA%A7n_T%C3%B4ng",
     "mieuHieu": "Thần Tông",
     "thuyHieu": "Uyên Hoàng Đế",
     "nienHieu": "Khánh Đức (1649–1652) Thịnh Đức (1653–1657) Vĩnh Thọ (1658–1661) Vạn Khánh (1662)",
@@ -1160,7 +1160,7 @@
     "ten": "Lê Thần Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Huy%E1%BB%81n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Huy%E1%BB%81n_T%C3%B4ng",
     "mieuHieu": "Huyền Tông",
     "thuyHieu": "Mục Hoàng Đế",
     "nienHieu": "Cảnh Trị (1663–1671)",
@@ -1170,7 +1170,7 @@
     "ten": "Lê Huyền Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Gia_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Gia_T%C3%B4ng",
     "mieuHieu": "Gia Tông",
     "thuyHieu": "Mỹ Hoàng Đế",
     "nienHieu": "Dương Đức (1672––1673) Đức Nguyên (1674-1675)",
@@ -1180,7 +1180,7 @@
     "ten": "Lê Gia Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Hy_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Hy_T%C3%B4ng",
     "mieuHieu": "Hy Tông",
     "thuyHieu": "Chương Hoàng Đế",
     "nienHieu": "Vĩnh Trị (1676-1680) Chính Hòa (1680-1705)",
@@ -1190,7 +1190,7 @@
     "ten": "Lê Hy Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_D%E1%BB%A5_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_D%E1%BB%A5_T%C3%B4ng",
     "mieuHieu": "Dụ Tông",
     "thuyHieu": "Hòa Hoàng Đế",
     "nienHieu": "Vĩnh Thịnh (1706-1719) Bảo Thái (1720-1729)",
@@ -1200,7 +1200,7 @@
     "ten": "Lê Dụ Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Duy_Ph%C6%B0%E1%BB%9Dng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Duy_Ph%C6%B0%E1%BB%9Dng",
     "mieuHieu": "không có",
     "thuyHieu": "Hôn Đức Công",
     "nienHieu": "Vĩnh Khánh (1729-1732)",
@@ -1210,7 +1210,7 @@
     "ten": "Lê Duy Phường"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Thu%E1%BA%A7n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Thu%E1%BA%A7n_T%C3%B4ng",
     "mieuHieu": "Thuần Tông",
     "thuyHieu": "Giản Hoàng Đế",
     "nienHieu": "Long Đức (1732-1735)",
@@ -1220,7 +1220,7 @@
     "ten": "Lê Thuần Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_%C3%9D_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_%C3%9D_T%C3%B4ng",
     "mieuHieu": "Ý Tông",
     "thuyHieu": "Huy Hoàng Đế",
     "nienHieu": "Vĩnh Hựu (1735-1740)",
@@ -1230,7 +1230,7 @@
     "ten": "Lê Ý Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Hi%E1%BB%83n_T%C3%B4ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Hi%E1%BB%83n_T%C3%B4ng",
     "mieuHieu": "Hiển Tông",
     "thuyHieu": "Vĩnh Hoàng Đế",
     "nienHieu": "Cảnh Hưng (1740-1786)",
@@ -1240,7 +1240,7 @@
     "ten": "Lê Hiển Tông"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng",
     "mieuHieu": "không có",
     "thuyHieu": "Mẫn Hoàng Đế",
     "nienHieu": "Chiêu Thống (1786-1789)",
@@ -1250,7 +1250,7 @@
     "ten": "Lê Chiêu Thống"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m",
     "mieuHieu": "Thế Tổ",
     "thuyHieu": "Minh Khang Thái Vương",
     "nienHieu": "không có",
@@ -1260,7 +1260,7 @@
     "ten": "Trịnh Kiểm"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%E1%BB%91i",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%E1%BB%91i",
     "mieuHieu": "không có",
     "thuyHieu": "Tuấn Đức Hầu, Trung Quốc Công",
     "nienHieu": "không có",
@@ -1270,7 +1270,7 @@
     "ten": "Trịnh Cối"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng",
     "mieuHieu": "Thành Tổ",
     "thuyHieu": "Triết Vương",
     "nienHieu": "không có",
@@ -1280,7 +1280,7 @@
     "ten": "Bình An Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Tr%C3%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Tr%C3%A1ng",
     "mieuHieu": "Văn Tổ",
     "thuyHieu": "Nghị Vương",
     "nienHieu": "không có",
@@ -1290,7 +1290,7 @@
     "ten": "Thanh Đô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c",
     "mieuHieu": "Hoằng Tổ",
     "thuyHieu": "Dương Vương",
     "nienHieu": "không có",
@@ -1300,7 +1300,7 @@
     "ten": "Tây Định Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C4%83n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C4%83n",
     "mieuHieu": "Chiêu Tổ",
     "thuyHieu": "Khang Vương",
     "nienHieu": "không có",
@@ -1310,7 +1310,7 @@
     "ten": "Định Nam Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C6%B0%C6%A1ng",
     "mieuHieu": "Hy Tổ",
     "thuyHieu": "Nhân Vương",
     "nienHieu": "không có",
@@ -1320,7 +1320,7 @@
     "ten": "An Đô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Giang",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Giang",
     "mieuHieu": "Dụ Tổ",
     "thuyHieu": "Thuận Vương",
     "nienHieu": "không có",
@@ -1330,7 +1330,7 @@
     "ten": "Uy Nam Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Doanh",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Doanh",
     "mieuHieu": "Nghị Tổ",
     "thuyHieu": "Ân Vương",
     "nienHieu": "không có",
@@ -1340,7 +1340,7 @@
     "ten": "Minh Đô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_S%C3%A2m",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_S%C3%A2m",
     "mieuHieu": "Thánh Tổ",
     "thuyHieu": "Thịnh Vương",
     "nienHieu": "không có",
@@ -1350,7 +1350,7 @@
     "ten": "Tĩnh Đô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%A1n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_C%C3%A1n",
     "mieuHieu": "không có",
     "thuyHieu": "Xung Mẫn Vương",
     "nienHieu": "không có",
@@ -1360,7 +1360,7 @@
     "ten": "Điện Đô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Kh%E1%BA%A3i",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_Kh%E1%BA%A3i",
     "mieuHieu": "không có",
     "thuyHieu": "Anh Liệt Linh Vương",
     "nienHieu": "không có",
@@ -1370,7 +1370,7 @@
     "ten": "Đoan Nam Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_B%E1%BB%93ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Tr%E1%BB%8Bnh_B%E1%BB%93ng",
     "mieuHieu": "không có",
     "thuyHieu": "Huệ Định Công",
     "nienHieu": "không có",
@@ -1380,7 +1380,7 @@
     "ten": "Án Đô Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ho%C3%A0ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ho%C3%A0ng",
     "mieuHieu": "Liệt Tổ, Thái Tổ",
     "thuyHieu": "Triệu Cơ Tùy Thống Khâm Minh Cung Ý Cần Nghĩa Đạt Lý Hiển Ứng Chiêu Hựu Diệu Linh Gia Dụ Hoàng Đế",
     "nienHieu": "không có",
@@ -1390,7 +1390,7 @@
     "ten": "Tiên Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Nguy%C3%AAn",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Nguy%C3%AAn",
     "mieuHieu": "Tuyên Tổ, Hy Tông",
     "thuyHieu": "Hiển Mô Quang Liệt Ôn Cung Minh Duệ Dực Thiện Tuy Du Hiếu Văn Hoàng Đế",
     "nienHieu": "không có",
@@ -1400,7 +1400,7 @@
     "ten": "Sãi Vương Phật Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Lan",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Lan",
     "mieuHieu": "Thần Tổ, Thần Tông",
     "thuyHieu": "Thừa Cơ Toàn Thống Quân Minh Hùng Nghị Uy Đoán Anh Vũ Hiếu Chiêu Hoàng Đế",
     "nienHieu": "không có",
@@ -1410,7 +1410,7 @@
     "ten": "Thượng Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_T%E1%BA%A7n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_T%E1%BA%A7n",
     "mieuHieu": "Nghị Tổ, Thái Tông",
     "thuyHieu": "Tuyên Uy Kiến Vũ Anh Minh Trang Chính Thánh Đức Thần Công Hiếu Triết Hoàng Đế",
     "nienHieu": "không có",
@@ -1420,7 +1420,7 @@
     "ten": "Hiền Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Th%C3%A1i",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Th%C3%A1i",
     "mieuHieu": "Anh Tông",
     "thuyHieu": "Thiệu Hư Toản Nghiệp Khoan Hồng Bác Hậu Ôn Huệ Từ Tường Hiếu Nghĩa Hoàng Đế",
     "nienHieu": "không có",
@@ -1430,7 +1430,7 @@
     "ten": "Nghĩa Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Chu",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Chu",
     "mieuHieu": "Hiển Tông",
     "thuyHieu": "Anh Mô Hùng Lược Thánh Minh Tuyên Đạt Khoan Từ Nhân Thứ Hiếu Minh Hoàng Đế",
     "nienHieu": "không có",
@@ -1440,7 +1440,7 @@
     "ten": "Minh Vương Quốc Chúa"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Ch%C3%BA",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Ch%C3%BA",
     "mieuHieu": "Túc Tông",
     "thuyHieu": "Tuyên Quang Thiệu Liệt Tuấn Triết Tĩnh Uyên Kinh Văn Vĩ Vũ Hiếu Ninh Hoàng Đế",
     "nienHieu": "không có",
@@ -1450,7 +1450,7 @@
     "ten": "Ninh Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Kho%C3%A1t",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Kho%C3%A1t",
     "mieuHieu": "Thế Tông",
     "thuyHieu": "Kiền Cương Uy Đoán Thần Nghị Thánh Du Nhân Từ Duệ Trí Hiếu Vũ Hoàng Đế",
     "nienHieu": "không có",
@@ -1460,7 +1460,7 @@
     "ten": "Vũ Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Thu%E1%BA%A7n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Thu%E1%BA%A7n",
     "mieuHieu": "Duệ Tông",
     "thuyHieu": "Thông Minh Khoan Hậu Anh Mẫn Huệ Hòa Hiếu Định Hoàng Đế",
     "nienHieu": "không có",
@@ -1470,7 +1470,7 @@
     "ten": "Định Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_D%C6%B0%C6%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_D%C6%B0%C6%A1ng",
     "mieuHieu": "không có",
     "thuyHieu": "Cung Mẫn Anh Đoán Huyền Mặc Vĩ Văn Mục Vương",
     "nienHieu": "không có",
@@ -1480,7 +1480,7 @@
     "ten": "Tân Chính Vương"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c",
     "mieuHieu": "không có",
     "thuyHieu": "Minh Đức Hoàng Đế",
     "nienHieu": "Thái Đức (1778-1788)",
@@ -1490,7 +1490,7 @@
     "ten": "Thái Đức"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Hu%E1%BB%87",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Hu%E1%BB%87",
     "mieuHieu": "Thái Tổ",
     "thuyHieu": "Vũ Hoàng Đế Trung Thuần Vương",
     "nienHieu": "Quang Trung (1788-1792)",
@@ -1500,7 +1500,7 @@
     "ten": "Quang Trung"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Quang_To%E1%BA%A3n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Nguy%E1%BB%85n_Quang_To%E1%BA%A3n",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Cảnh Thịnh (1792-1801) Bảo Hưng (1801-1802)",
@@ -1510,7 +1510,7 @@
     "ten": "Nguyễn Quang Toản"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Gia_Long",
+    "articleLink": "https://vi.wikipedia.org/wiki/Gia_Long",
     "mieuHieu": "Thế Tổ",
     "thuyHieu": "Khai Thiên Hoằng Đạo Lập Kỷ Thùy Thống Thần Văn Thánh Vũ Tuấn Đức Long Công Chí Nhân Đại Hiếu Cao Hoàng Đế",
     "nienHieu": "Gia Long (1802–1820)",
@@ -1520,7 +1520,7 @@
     "ten": "Gia Long"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Minh_M%E1%BA%A1ng",
+    "articleLink": "https://vi.wikipedia.org/wiki/Minh_M%E1%BA%A1ng",
     "mieuHieu": "Thánh Tổ",
     "thuyHieu": "Thể Thiên Xương Vận Chí Hiếu Thuần Đức Văn Vũ Minh Đoán Sáng Thuật Đại Thành Hậu Trạch Phong Công Nhân Hoàng Đế",
     "nienHieu": "Minh Mạng (1820–1841)",
@@ -1530,7 +1530,7 @@
     "ten": "Minh Mạng"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Thi%E1%BB%87u_Tr%E1%BB%8B",
+    "articleLink": "https://vi.wikipedia.org/wiki/Thi%E1%BB%87u_Tr%E1%BB%8B",
     "mieuHieu": "Hiến Tổ",
     "thuyHieu": "Thiệu Thiên Long Vận Chí Thiện Thuần Hiếu Khoan Minh Duệ Đoán Văn Trị Vũ Công Thánh Triết Chương Hoàng Đế",
     "nienHieu": "Thiệu Trị (1841–1847)",
@@ -1540,7 +1540,7 @@
     "ten": "Thiệu Trị"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/T%E1%BB%B1_%C4%90%E1%BB%A9c",
+    "articleLink": "https://vi.wikipedia.org/wiki/T%E1%BB%B1_%C4%90%E1%BB%A9c",
     "mieuHieu": "Dực Tông",
     "thuyHieu": "Thể Thiên Hanh Vận Chí Thành Đạt Hiếu Thể Kiện Đôn Nhân Khiêm Cung Minh Lược Duệ Văn Anh Hoàng Đế",
     "nienHieu": "Tự Đức (1847–1883)",
@@ -1550,7 +1550,7 @@
     "ten": "Tự Đức"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/D%E1%BB%A5c_%C4%90%E1%BB%A9c",
+    "articleLink": "https://vi.wikipedia.org/wiki/D%E1%BB%A5c_%C4%90%E1%BB%A9c",
     "mieuHieu": "Cung Tông",
     "thuyHieu": "Huệ Hoàng Đế",
     "nienHieu": "không có",
@@ -1560,7 +1560,7 @@
     "ten": "Dục Đức"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_H%C3%B2a",
+    "articleLink": "https://vi.wikipedia.org/wiki/Hi%E1%BB%87p_H%C3%B2a",
     "mieuHieu": "không có",
     "thuyHieu": "Phế Đế",
     "nienHieu": "Hiệp Hòa (1883)",
@@ -1570,7 +1570,7 @@
     "ten": "Hiệp Hòa"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Ki%E1%BA%BFn_Ph%C3%BAc",
+    "articleLink": "https://vi.wikipedia.org/wiki/Ki%E1%BA%BFn_Ph%C3%BAc",
     "mieuHieu": "Giản Tông",
     "thuyHieu": "Thiệu Đức Chí Hiếu Uyên Duệ Nghị Hoàng Đế",
     "nienHieu": "Kiến Phúc (1883-1884)",
@@ -1580,7 +1580,7 @@
     "ten": "Kiến Phúc"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/H%C3%A0m_Nghi",
+    "articleLink": "https://vi.wikipedia.org/wiki/H%C3%A0m_Nghi",
     "mieuHieu": "không có",
     "thuyHieu": "Xuất Đế",
     "nienHieu": "Hàm Nghi (1884–1885)",
@@ -1590,7 +1590,7 @@
     "ten": "Hàm Nghi"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Kh%C3%A1nh",
+    "articleLink": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Kh%C3%A1nh",
     "mieuHieu": "Cảnh Tông",
     "thuyHieu": "Hoằng Liệt Thống Thiết Mẫn Huệ Thuần Hoàng Đế",
     "nienHieu": "Đồng Khánh (1885–1889)",
@@ -1600,7 +1600,7 @@
     "ten": "Đồng Khánh"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Th%C3%A0nh_Th%C3%A1i",
+    "articleLink": "https://vi.wikipedia.org/wiki/Th%C3%A0nh_Th%C3%A1i",
     "mieuHieu": "không có",
     "thuyHieu": "Phế Đế",
     "nienHieu": "Thành Thái (1889–1907)",
@@ -1610,7 +1610,7 @@
     "ten": "Thành Thái"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Duy_T%C3%A2n",
+    "articleLink": "https://vi.wikipedia.org/wiki/Duy_T%C3%A2n",
     "mieuHieu": "không có",
     "thuyHieu": "Phế Đế",
     "nienHieu": "Duy Tân (1907–1916)",
@@ -1620,7 +1620,7 @@
     "ten": "Duy Tân"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh",
+    "articleLink": "https://vi.wikipedia.org/wiki/Kh%E1%BA%A3i_%C4%90%E1%BB%8Bnh",
     "mieuHieu": "Hoằng Tông",
     "thuyHieu": "Tự Thiên Gia Vận Thánh Minh Thần Trí Nhân Hiếu Thành Kính Di Mô Thừa Liệt Tuyên Hoàng Đế",
     "nienHieu": "Khải Định (1916-1925)",
@@ -1630,7 +1630,7 @@
     "ten": "Khải Định"
   },
   {
-    "paperURL": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_%C4%90%E1%BA%A1i",
+    "articleLink": "https://vi.wikipedia.org/wiki/B%E1%BA%A3o_%C4%90%E1%BA%A1i",
     "mieuHieu": "không có",
     "thuyHieu": "không có",
     "nienHieu": "Bảo Đại (1925–1945)",

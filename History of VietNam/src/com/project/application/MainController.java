@@ -35,6 +35,7 @@ public class MainController {
     ObservableList<Relic> listObservablesRelic = HistoryDatabase.<Relic>getHistoryDatabase("relic.json", Relic.class);
     ObservableList<Event> listObservablesEvent = HistoryDatabase.<Event>getHistoryDatabase("event.json", Event.class);
 
+    HistoryGUI historyGUI = new HistoryGUI();
     @FXML
     private MenuItem menuItemKing;
 
@@ -69,11 +70,9 @@ public class MainController {
         String lableSelecItem = menuItem.getText();
 
         menuBtnSearchField.setText(menuItem.getText());
-
         
-
         switch (lableSelecItem) {
-            case "King":
+            case "Vua":
                 kingSelected();
                 break;
             case "Nhân Vật Lịch Sử":
@@ -105,7 +104,7 @@ public class MainController {
         tableKingView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
             if (e.getClickCount() > 1) {
                 King curSelect = tableKingView.getSelectionModel().getSelectedItem();
-                HistoryGUI.showKingPopup(curSelect);
+                historyGUI.showKingPopup(curSelect);
             }
         });
         SearchEngine<King> searchKing = new SearchEngine<King>();
@@ -121,7 +120,7 @@ public class MainController {
         tableCharacterView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
             if (e.getClickCount() > 1) {
                 Character curSelect = tableCharacterView.getSelectionModel().getSelectedItem();
-                HistoryGUI.showCharacterPopup(curSelect, listObservablesDynasty, listObservablesKing);
+                historyGUI.showCharacterPopup(curSelect, listObservablesDynasty, listObservablesKing);
             }
         });
         SearchEngine<Character> searchCharacter = new SearchEngine<Character>();
@@ -137,7 +136,7 @@ public class MainController {
         tableDynastyView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
             if (e.getClickCount() > 1) {
                 Dynasty curSelect = tableDynastyView.getSelectionModel().getSelectedItem();
-                HistoryGUI.showDynastyPopup(curSelect, listObservablesKing);
+                historyGUI.showDynastyPopup(curSelect, listObservablesKing);
             }
         });
         SearchEngine<Dynasty> searchDynasty = new SearchEngine<Dynasty>();
@@ -153,7 +152,7 @@ public class MainController {
         tableEventView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
             if (e.getClickCount() > 1) {
                 Event curSelect = tableEventView.getSelectionModel().getSelectedItem();
-                HistoryGUI.showEventPopup(curSelect);
+                historyGUI.showEventPopup(curSelect);
             }
         });
         SearchEngine<Event> searchEvent = new SearchEngine<Event>();
@@ -169,7 +168,7 @@ public class MainController {
         tableFestivalView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
             if (e.getClickCount() > 1) {
                 Festival curSelect = tableFestivalView.getSelectionModel().getSelectedItem();
-                HistoryGUI.showFestivalPopup(curSelect, listObservablesCharacter, listObservablesDynasty, listObservablesKing);
+                historyGUI.showFestivalPopup(curSelect, listObservablesCharacter, listObservablesDynasty, listObservablesKing);
             }
         });
         SearchEngine<Festival> searchFestival = new SearchEngine<Festival>();
@@ -186,7 +185,7 @@ public class MainController {
         tableRelicView.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent e) -> {
             if (e.getClickCount() > 1) {
                 Relic curSelect = tableRelicView.getSelectionModel().getSelectedItem();
-                HistoryGUI.showRelicPopup(curSelect, listObservablesCharacter, listObservablesKing,listObservablesDynasty);
+                historyGUI.showRelicPopup(curSelect, listObservablesCharacter, listObservablesKing,listObservablesDynasty);
             }
         });
         SearchEngine<Relic> searchRelic = new SearchEngine<Relic>();
