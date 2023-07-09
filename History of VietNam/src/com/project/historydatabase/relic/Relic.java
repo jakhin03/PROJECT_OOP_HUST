@@ -13,7 +13,7 @@ public class Relic{
 	private String desc;
 	private LinkedList<Character> characters;
 	private LinkedList<King> kings;
-	private LinkedList<Dynasty> dynasties;
+	private LinkedList<Dynasty> dynasties ;
 	private String name;
 	
 	public String getName() {

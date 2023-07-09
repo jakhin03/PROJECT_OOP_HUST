@@ -379,41 +379,50 @@ public class HistoryGUI {
 	        LinkedList<Dynasty> newDynasties = new LinkedList<Dynasty>();
 	        LinkedList<King> newKings = new LinkedList<King>();
 	        LinkedList<Character> newCharacters = new LinkedList<Character>();
-	        for (int i = 0; i < curSelect.getDynasties().size(); i++) {
+	        if (curSelect.getDynasties() != null) {
+	        	for (int i = 0; i < curSelect.getDynasties().size(); i++) {
 
-	            strTrieuDai += curSelect.getDynasties().get(i).getName() + ",";
-	            for (int j = 0; j < dynasties.size(); j++) {
+		            strTrieuDai += curSelect.getDynasties().get(i).getName() + ",";
+		            for (int j = 0; j < dynasties.size(); j++) {
 
-	                if (curSelect.getDynasties().get(i).getName().toLowerCase()
-	                        .indexOf(dynasties.get(j).getName().toLowerCase()) != -1) {
-	                    newDynasties.add(dynasties.get(j));
-	                }
-	            }
+		                if (curSelect.getDynasties().get(i).getName().toLowerCase()
+		                        .indexOf(dynasties.get(j).getName().toLowerCase()) != -1) {
+		                    newDynasties.add(dynasties.get(j));
+		                }
+		            }
+		        }
 	        }
-	        for (int i = 0; i < curSelect.getKings().size(); i++) {
+	        
+	        if (curSelect.getKings() != null) {
+	        	 for (int i = 0; i < curSelect.getKings().size(); i++) {
 
-	            strKings += curSelect.getKings().get(i).getTen() + ",";
-	            for (int j = 0; j < kings.size(); j++) {
+	 	            strKings += curSelect.getKings().get(i).getTen() + ",";
+	 	            for (int j = 0; j < kings.size(); j++) {
 
-	                if (curSelect.getKings().get(i).getTen().toLowerCase()
-	                        .indexOf(kings.get(j).getTen().toLowerCase()) != -1) {
-	                    newKings.add(kings.get(j));
+	 	                if (curSelect.getKings().get(i).getTen().toLowerCase()
+	 	                        .indexOf(kings.get(j).getTen().toLowerCase()) != -1) {
+	 	                    newKings.add(kings.get(j));
 
-	                }
-	            }
+	 	                }
+	 	            }
+	 	        }
 	        }
-	        for (int i = 0; i < curSelect.getCharacters().size(); i++) {
+	       
+	        if (curSelect.getCharacters() != null) {
+	        	 for (int i = 0; i < curSelect.getCharacters().size(); i++) {
 
-	            strCharacters += curSelect.getCharacters().get(i).getTen() + ",";
-	            for (int j = 0; j < characters.size(); j++) {
+	 	            strCharacters += curSelect.getCharacters().get(i).getTen() + ",";
+	 	            for (int j = 0; j < characters.size(); j++) {
 
-	                if (curSelect.getCharacters().get(i).getTen().toLowerCase()
-	                        .indexOf(characters.get(j).getTen().toLowerCase()) != -1) {
-	                    newCharacters.add(characters.get(j));
+	 	                if (curSelect.getCharacters().get(i).getTen().toLowerCase()
+	 	                        .indexOf(characters.get(j).getTen().toLowerCase()) != -1) {
+	 	                    newCharacters.add(characters.get(j));
 
-	                }
-	            }
+	 	                }
+	 	            }
+	 	        }
 	        }
+	       
 	        curSelect.setDynasties(newDynasties);
 	        curSelect.setKings(newKings);
 	        curSelect.setCharacters(newCharacters);

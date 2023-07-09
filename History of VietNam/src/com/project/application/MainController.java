@@ -67,11 +67,11 @@ public class MainController {
     @FXML
     void clickMenuItem(ActionEvent event) throws IOException {
         MenuItem menuItem = (MenuItem) event.getSource();
-        String lableSelecItem = menuItem.getText();
+        String labelSelecItem = menuItem.getText();
 
         menuBtnSearchField.setText(menuItem.getText());
         
-        switch (lableSelecItem) {
+        switch (labelSelecItem) {
             case "Vua":
                 kingSelected();
                 break;
