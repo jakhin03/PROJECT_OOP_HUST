@@ -43,7 +43,7 @@ public class WikiEvent extends AScraper implements IScraper, IDataToScrape{
 		    if (event.tagName().equals("p") && !strTime.isEmpty()) {
 		        tempStrTime = strTime;
 		    } else if (event.tagName().equals("dd") && !name.isEmpty()) {
-		        String combinedBText = tempStrTime + " " + strTime;
+		        strTime =  strTime +tempStrTime + " " ;
 		    }
 			String destination = scrapeDestination(name, strTime);
 			String relatedFigure = scrapeFigure(name, strTime);
