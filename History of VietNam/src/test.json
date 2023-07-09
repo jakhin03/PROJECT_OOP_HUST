@@ -97,7 +97,7 @@
   {
     "ten": "Chiến tranh Tần-Việt",
     "thoiGian": "218 TCN - 207 TCN",
-    "diaDiem": "TầnViệt"
+    "diaDiem": "Tần-Việt"
   },
   {
     "ten": "Triệu Đà Âu Lạc Nam Việt",
@@ -107,7 +107,7 @@
   {
     "ten": "Chiến tranh Hán-Nam Việt",
     "thoiGian": "111 TCN",
-    "diaDiem": "HánNam Việt"
+    "diaDiem": "Hán-Nam Việt"
   },
   {
     "ten": "nhà Hán Nam Việt",
@@ -122,7 +122,7 @@
   {
     "ten": "Chiến tranh Lĩnh Nam - Đông Hán",
     "thoiGian": "42 - 43 ",
-    "diaDiem": "Lĩnh Nam  Đông Hán"
+    "diaDiem": "Lĩnh Nam - Đông Hán"
   },
   {
     "ten": "Đông Hán Lĩnh Nam",
@@ -267,7 +267,7 @@
   {
     "ten": "Chiến tranh Tống - Việt",
     "thoiGian": "tháng 1 - tháng 4 981",
-    "diaDiem": "Tống  Việt"
+    "diaDiem": "Tống - Việt"
   },
   {
     "ten": "Lý Công Uẩn nhà Lý",
@@ -287,12 +287,12 @@
   {
     "ten": "Chiến tranh Việt-Chiêm Đại Việt Chiêm Thành",
     "thoiGian": "1069",
-    "diaDiem": "ViệtChiêm Đại Việt Chiêm Thành"
+    "diaDiem": "Việt-Chiêm Đại Việt Chiêm Thành"
   },
   {
     "ten": "Chiến tranh Tống-Việt",
     "thoiGian": "1075–1077",
-    "diaDiem": "TốngViệt"
+    "diaDiem": "Tống-Việt"
   },
   {
     "ten": "Trận Như Nguyệt Tống",
@@ -322,7 +322,7 @@
   {
     "ten": "Chiến tranh Nguyên Mông-Đại Việt lần 2",
     "thoiGian": "1285",
-    "diaDiem": "Nguyên MôngĐại Việt lần 2"
+    "diaDiem": "Nguyên Mông-Đại Việt lần 2"
   },
   {
     "ten": "Chiến tranh Nguyên Mông–Đại Việt lần 3",
@@ -347,7 +347,7 @@
   {
     "ten": "Chiến tranh Việt-Chiêm",
     "thoiGian": "1400–1407",
-    "diaDiem": "ViệtChiêm"
+    "diaDiem": "Việt-Chiêm"
   },
   {
     "ten": "Chiến tranh Đại Ngu–Đại Minh",
@@ -547,7 +547,7 @@
   {
     "ten": "Chiến tranh Pháp-Đại Nam",
     "thoiGian": "1858–1884",
-    "diaDiem": "PhápĐại Nam"
+    "diaDiem": "Pháp-Đại Nam"
   },
   {
     "ten": "Bạo loạn ven biển",
@@ -717,7 +717,7 @@
   {
     "ten": "Chiến dịch Việt Bắc Thu - Đông 1947",
     "thoiGian": "7 tháng 10 - 22 tháng 12 1947",
-    "diaDiem": "Việt Bắc Thu  Đông 1947"
+    "diaDiem": "Việt Bắc Thu - Đông 1947"
   },
   {
     "ten": "Pháp Quốc gia Việt Nam Bảo Đại Sài Gòn",
