@@ -3,9 +3,10 @@ package com.project.application.historygui;
 import java.util.*;
 
 import javafx.collections.ObservableList;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
@@ -19,7 +20,6 @@ import javafx.scene.layout.BackgroundSize;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
 import com.project.historydatabase.dynasty.Dynasty;
 import com.project.historydatabase.figure.King;
@@ -30,22 +30,17 @@ import com.project.historydatabase.event.Event;
 import com.project.application.*;
 
 public class HistoryGUI {
-	public static void showDynastyPopup(Dynasty curSelect, ObservableList<King> listKing){
+	public void showDynastyPopup(Dynasty curSelect, ObservableList<King> listKing){
 		BorderPane borderPane = new BorderPane();
         Stage stage = new Stage();
-        stage.setTitle("Chi tiết triều đại");
+        stage.setTitle("Các triều đại Việt Nam");
+        
         Image imagebackground = new Image(
                 "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
         BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
                 BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
         borderPane.setBackground(new Background(backgroundImage));
-
-        Image image = new Image(
-                "https://vozer.vn/storage/images/tom-tat-lich-su-viet-nam-bang-mot-bai-tho-05494151.jpg");
-
-        ImageView imageView = new ImageView(image);
-        imageView.setFitWidth(233);
-        imageView.setFitHeight(145);
+        
         Label name = new Label("Tên Triều đại: " + curSelect.getName());
         Label startYear = new Label("Năm bắt đầu: " + curSelect.getStartYear());
         Label endYear = new Label("Năm kết thúc: " + curSelect.getEndYear());
@@ -76,22 +71,16 @@ public class HistoryGUI {
         HBox hbox = new HBox();
         hbox.setPadding(new Insets(20, 20, 20, 20));
         hbox.setSpacing(25);
-        HBox picturebox = new HBox();
 
-        // picturebox.setSpacing(20);
-        picturebox.getChildren().add(imageView);
-        // picturebox.setStyle("-fx-border-color: white; -fx-border-width: 3px;
-        // -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
         VBox labelbox = new VBox();
         // labelbox.setSpacing(20);
         labelbox.getChildren().addAll(name, startYear, endYear, capital, founder);
 
-        hbox.getChildren().addAll(picturebox, labelbox);
+        hbox.getChildren().addAll(labelbox);
 
         borderPane.setCenter(hbox);
-        picturebox.setAlignment(Pos.CENTER_LEFT);
-        labelbox.setAlignment(Pos.CENTER_LEFT);
+        labelbox.setAlignment(Pos.CENTER);
         hbox.setAlignment(Pos.CENTER);
 
         HBox moreInforContainer = new HBox();
@@ -107,16 +96,15 @@ public class HistoryGUI {
         borderPane.setBottom(moreInforContainer);
         BorderPane.setAlignment(moreInforContainer, Pos.CENTER);
         Scene scene = new Scene(borderPane, 800, 600);
-        //scene.getStylesheets().add("style/style.css");
+        scene.getStylesheets().add(getClass().getResource("./popupStyle.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
     }
-	
-	
-	public static void showFestivalPopup(Festival curSelect, ObservableList<Character> listCharacter, ObservableList<Dynasty> listDynasty, ObservableList<King> listKing) {
+		
+	public void showFestivalPopup(Festival curSelect, ObservableList<Character> listCharacter, ObservableList<Dynasty> listDynasty, ObservableList<King> listKing) {
 		 BorderPane borderPane = new BorderPane();
 	        Stage stage = new Stage();
-	        stage.setTitle("Festival Detail");
+	        stage.setTitle("Các lễ hội văn hóa ở Việt Nam");
 
 	        Image imagebackground = new Image(
 	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
@@ -140,7 +128,6 @@ public class HistoryGUI {
 	        Character newCharacter = new Character();
 
 	        strCharacter = curSelect.getCharacter().getTen();
-	        System.out.println(strCharacter);
 	        for (int j = 0; j < listCharacter.size(); j++) {
 
 	            if (curSelect.getCharacter().getTen().toLowerCase()
@@ -197,15 +184,15 @@ public class HistoryGUI {
 	        }
 
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        //scene.getStylesheets().add("style/style.css");
+	        scene.getStylesheets().add(getClass().getResource("./popupStyle.css").toExternalForm());
 	        stage.setScene(scene);
 	        stage.show();
 	}
 	
-	public static void showCharacterPopup(Character curSelect, ObservableList<Dynasty> listDynasty, ObservableList<King> listKing) {
-		 BorderPane borderPane = new BorderPane();
+	public void showCharacterPopup(Character curSelect, ObservableList<Dynasty> listDynasty, ObservableList<King> listKing) {
+			BorderPane borderPane = new BorderPane();
 	        Stage stage = new Stage();
-	        stage.setTitle("Chi tiết nhân vật");
+	        stage.setTitle("Các nhân vật nổi tiếng Việt Nam");
 	        Image imagebackground = new Image(
 	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
 	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
@@ -233,13 +220,11 @@ public class HistoryGUI {
 	                if (curSelect.getTrieuDai().get(i).getName().toLowerCase()
 	                        .indexOf(listDynasty.get(j).getName().toLowerCase()) != -1) {
 	                    dynasties.add(listDynasty.get(j));
-	                    System.out.println(listDynasty.get(j).getFounder().getTen());
 	                }
 	            }
 
 	        }
 	        curSelect.setTrieuDai(dynasties);
-	        // System.out.println(newDynasty.get(0).getFounder().getTen());
 	        Label trieuDai = new Label("Triều đại: " + strTrieuDai);
 	        Label ghiChu = new Label("Ghi chú: " + curSelect.getGhiChu());
 	        ghiChu.setWrapText(true);
@@ -293,16 +278,16 @@ public class HistoryGUI {
 	        borderPane.setBottom(moreInforContainer);
 	        BorderPane.setAlignment(moreInforContainer, Pos.CENTER);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        //scene.getStylesheets().add("style/style.css");
+	        scene.getStylesheets().add(getClass().getResource("./popupStyle.css").toExternalForm());
 	        stage.setScene(scene);
 	        stage.show();
 	    
 	}
 	
-	public static void showKingPopup(King curSelect) {
+	public  void showKingPopup(King curSelect) {
 		 BorderPane borderPane = new BorderPane();
 	        Stage stage = new Stage();
-	        stage.setTitle("Chi tiết vị vua");
+	        stage.setTitle("Các vị vua Việt Nam");
 	        Image imagebackground = new Image(
 	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
 	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
@@ -323,7 +308,7 @@ public class HistoryGUI {
 	        Label nienHieu = new Label("Niên hiệu: " + curSelect.getNienHieu());
 	        Label thuyHieu = new Label("Thụy hiệu: " + curSelect.getThuyHieu());
 	        Label mieuHieu = new Label("Miếu hiệu: " + curSelect.getMieuHieu());
-	        Label paperURL = new Label("Link bài báo tìm hiểu thêm: " + curSelect.getArticleLink());
+	        Label articleLink = new Label("Link bài báo tìm hiểu thêm: " + curSelect.getArticleLink());
 
 	        ten.getStyleClass().add("text-color");
 	        namTriVi.getStyleClass().add("text-color");
@@ -332,7 +317,7 @@ public class HistoryGUI {
 	        nienHieu.getStyleClass().add("text-color");
 	        thuyHieu.getStyleClass().add("text-color");
 	        mieuHieu.getStyleClass().add("text-color");
-	        paperURL.getStyleClass().add("text-color");
+	        articleLink.getStyleClass().add("text-color");
 
 	        VBox vbox = new VBox();
 	        HBox hbox = new HBox();
@@ -351,7 +336,7 @@ public class HistoryGUI {
 	        hbox.getChildren().addAll(picturebox, labelbox);
 
 	        VBox contentText = new VBox();
-	        contentText.getChildren().addAll(paperURL);
+	        contentText.getChildren().addAll(articleLink);
 
 	        vbox.getChildren().addAll(hbox, contentText);
 	        borderPane.setCenter(vbox);
@@ -361,15 +346,15 @@ public class HistoryGUI {
 	        contentText.setAlignment(Pos.CENTER);
 	        vbox.setAlignment(Pos.CENTER);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        //scene.getStylesheets().add("style/style.css");
+	        scene.getStylesheets().add(getClass().getResource("./popupStyle.css").toExternalForm());
 	        stage.setScene(scene);
 	        stage.show();
 	}
 	
-	public static void showRelicPopup(Relic curSelect, ObservableList<Character> characters, ObservableList<King> kings, ObservableList<Dynasty> dynasties) {
+	public void showRelicPopup(Relic curSelect, ObservableList<Character> characters, ObservableList<King> kings, ObservableList<Dynasty> dynasties) {
 		   BorderPane borderPane = new BorderPane();
 	        Stage stage = new Stage();
-	        stage.setTitle("Relic Detail");
+	        stage.setTitle("Di tích lịch sử Việt Nam");
 
 	        Image imagebackground = new Image(
 	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
@@ -402,7 +387,6 @@ public class HistoryGUI {
 	                if (curSelect.getDynasties().get(i).getName().toLowerCase()
 	                        .indexOf(dynasties.get(j).getName().toLowerCase()) != -1) {
 	                    newDynasties.add(dynasties.get(j));
-	                    System.out.println(dynasties.get(j).getFounder().getTen());
 	                }
 	            }
 	        }
@@ -505,16 +489,16 @@ public class HistoryGUI {
 	        }
 	        borderPane.setBottom(moreInforContainer);
 	        Scene scene = new Scene(borderPane, 800, 600);
-	        scene.getStylesheets().add("style2.css");
+	        scene.getStylesheets().add(getClass().getResource("./popupStyle.css").toExternalForm());
 	        stage.setScene(scene);
 	        stage.show();
 	    
 	}
 	
-	public static void showEventPopup(Event curSelect) {
+	public void showEventPopup(Event curSelect) {
 		BorderPane borderPane = new BorderPane();
         Stage stage = new Stage();
-        stage.setTitle("Chi tiết lễ hội");
+        stage.setTitle("Các sự kiện lịch sử");
         Image imagebackground = new Image(
                 "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
         BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
@@ -564,7 +548,7 @@ public class HistoryGUI {
         contentText.setAlignment(Pos.CENTER);
         vbox.setAlignment(Pos.CENTER);
         Scene scene = new Scene(borderPane, 800, 600);
-        //scene.getStylesheets().add("style/style.css");
+        scene.getStylesheets().add(getClass().getResource("./popupStyle.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
 	}

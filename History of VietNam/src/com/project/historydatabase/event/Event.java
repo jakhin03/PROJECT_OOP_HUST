@@ -37,15 +37,15 @@ public class Event {
 		this.thoiGian = thoiGian;
 	}
 
-	public String getDiaDiem() {
-		return (diaDiem.equals("")) ? "Đang cập nhật" : diaDiem;
+	public String getDiaDiem() {		
+		return (diaDiem == null) ? "Đang cập nhật" : diaDiem;
 	}
 
 	public void setDiaDiem(String diaDiem) {
 		this.diaDiem = diaDiem;
 	}
 
-	public Dynasty getNien_dai() {
+	public Dynasty getNienDai() {
 		return nienDai;
 	}
 
