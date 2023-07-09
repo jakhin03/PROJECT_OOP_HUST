@@ -1,22 +1,9 @@
 package com.project.historydatabase;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.awt.AWTException;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.File;
 import java.lang.reflect.Type;
-import java.util.Properties;
-
-import com.project.historydatabase.dynasty.Dynasty;
-import com.project.historydatabase.festival.Festival;
-import com.project.historydatabase.figure.Figure;
-import com.project.historydatabase.figure.Character;
-import com.project.historydatabase.figure.King;
-import com.project.historydatabase.event.Event;
-import com.project.historydatabase.relic.Relic;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
