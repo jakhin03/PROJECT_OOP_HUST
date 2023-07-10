@@ -73,7 +73,7 @@ public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 
 	@Override
 	public void synthesis() throws IOException {
-		LinkRelicWithFigureAndDynasty linkRelic = new LinkRelicWithFigureAndDynasty();
+		LinkRelicWithCharacterAndDynasty linkRelic = new LinkRelicWithCharacterAndDynasty();
 
 		String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId="; 
 		for (int i = 1865; i <= 6139; i++) {
@@ -93,7 +93,7 @@ public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 				linkRelic.setLienKetKing(0);
 				
 				linkRelic.genLink(tenNguoiTho);
-				LinkedList<Character> characters = linkRelic.getFigures();
+				LinkedList<Character> characters = linkRelic.getCharacters();
 				LinkedList<King> kings = linkRelic.getKings();
 				LinkedList<Dynasty> dynastys = linkRelic.getDynastys();
 
