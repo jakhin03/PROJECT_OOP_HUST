@@ -62,6 +62,11 @@ public class MainController {
 
     @FXML
     private TextField tfSearch;
+    
+    @FXML
+    void initialize() {
+    	kingSelected();
+    }
 
     // Search field chosen
     @FXML
