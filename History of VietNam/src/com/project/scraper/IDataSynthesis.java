@@ -3,5 +3,5 @@ package com.project.scraper;
 import java.io.IOException;
 
 public interface IDataSynthesis {
-	public void Synthesis() throws IOException;
+	public void synthesis() throws IOException;
 }
