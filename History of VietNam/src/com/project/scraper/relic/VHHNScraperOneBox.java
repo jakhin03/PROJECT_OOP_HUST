@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import com.project.scraper.AScraper;
 import com.project.scraper.IScraper;
 import com.project.scraper.datalinking.LinkRelicWithCharacterAndDynasty;
-import com.project.scraper.event.IDataToScrape;
 import com.project.historydatabase.relic.*;
 import com.project.historydatabase.dynasty.Dynasty;
 import com.project.historydatabase.figure.*;
@@ -14,7 +13,7 @@ import com.project.historydatabase.figure.Character;
 
 
 
-public class VHHNScraperOneBox extends AScraper implements IScraper, IDataToScrape {
+public class VHHNScraperOneBox extends AScraper implements IScraper {
 	private Relic relic;
 	private LinkRelicWithCharacterAndDynasty linkRelic;
 	private int lienKetKing = 0;
@@ -49,7 +48,7 @@ public class VHHNScraperOneBox extends AScraper implements IScraper, IDataToScra
 		connectToUrl();
 		linkRelic = new LinkRelicWithCharacterAndDynasty();
 	}
-
+	@Override
 	public void scrape() {
 		
 		String title = this.getDoc().select("header > h1").text();

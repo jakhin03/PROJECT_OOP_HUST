@@ -8,11 +8,10 @@ import org.jsoup.select.Elements;
 
 import com.project.scraper.AScraper;
 import com.project.scraper.IScraper;
-import com.project.scraper.event.IDataToScrape;
 import com.project.historydatabase.relic.*;
 
 
-public class VHHNScraperOnePage extends AScraper implements IScraper, IDataToScrape {
+public class VHHNScraperOnePage extends AScraper implements IScraper {
 	private LinkedList<Relic> relics;
 	private int lienKetKing = 0;
 	private int lienKetDynasty = 0;
