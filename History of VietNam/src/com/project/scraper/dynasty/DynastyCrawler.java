@@ -4,23 +4,33 @@ import java.io.IOException;
 import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.Elements;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
-
+import java.io.FileWriter;
 import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.project.historydatabase.dynasty.Dynasty;
+import com.project.historydatabase.event.Event;
 import com.project.historydatabase.figure.*;
+import com.project.scraper.AScraper;
 import com.project.scraper.IScraper;
+import com.project.scraper.event.IDataToScrape;
+import com.project.scraper.event.WikiEvent;
 
-public class DynastyCrawler implements IScraper{
+public class DynastyCrawler  extends AScraper implements IScraper, IDataToScrape{
 	
 	private ArrayList<Dynasty> dynasties = new ArrayList<>();
 	private Pattern patternName = Pattern.compile("[A-Za-zÀ-ỹ]+(\\s[A-Za-zÀ-ỹ]+)*");
-
+	
+	public ArrayList<Dynasty> getDynasties(){
+		return dynasties;
+	}
+	
+	@Override
 	public void scrape() {	
 		 try {
 	            Document doc = Jsoup.connect("http://leloi.phuyen.edu.vn/sinh-hoat-chuyen-mon/to-su-gdcd/lich-su-viet-nam-qua-cac-trieu-dai-2879-tcn-1976-.html").get();
@@ -61,11 +71,24 @@ public class DynastyCrawler implements IScraper{
 	            	dynasty.setFounder(kings.get(0));
 	            }
 	            dynasties.add(dynasty);
-	            
 	        } catch (IOException e) {
 	            e.printStackTrace();
 	        }
 	}
-	
+	public static void main(String args[]) throws IOException, InterruptedException {
+		DynastyCrawler dynasty = new DynastyCrawler();
+		dynasty.scrape();
+		String JsonURL = "History%20Data\\dynasty.json";
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		try {
+			FileWriter writer = new FileWriter(new File(JsonURL));
+			ArrayList<Dynasty> dynastiesList = new ArrayList<Dynasty>();
+			dynastiesList.addAll(dynasty.getDynasties());
+			gson.toJson(dynastiesList, writer);
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	
 }
