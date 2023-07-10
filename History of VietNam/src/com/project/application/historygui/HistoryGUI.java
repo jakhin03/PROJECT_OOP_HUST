@@ -36,7 +36,7 @@ public class HistoryGUI {
         stage.setTitle("Các triều đại Việt Nam");
         
         Image imagebackground = new Image(
-                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+                "https://cdn.discordapp.com/attachments/1100049349712564265/1127549029828546660/trieudaivn.jpg?width=1190&height=670");
         BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
                 BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
         borderPane.setBackground(new Background(backgroundImage));
@@ -107,17 +107,17 @@ public class HistoryGUI {
 	        stage.setTitle("Các lễ hội văn hóa ở Việt Nam");
 
 	        Image imagebackground = new Image(
-	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+	                "https://media.discordapp.net/attachments/1100049349712564265/1127530838729437184/lichsuvn.jpg?width=1190&height=670");
 	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
 	                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
 	        borderPane.setBackground(new Background(backgroundImage));
-
-	        Image image = new Image(
-	                "https://lib.agu.edu.vn/images/2020/2.png");
-	        ImageView imageView = new ImageView(image);
-	        imageView.setFitWidth(233);
-	        imageView.setFitHeight(145);
-	        imageView.getStyleClass().add("border-style");
+//
+//	        Image image = new Image(
+//	                "https://lib.agu.edu.vn/images/2020/2.png");
+//	        ImageView imageView = new ImageView(image);
+//	        imageView.setFitWidth(233);
+//	        imageView.setFitHeight(145);
+//	        imageView.getStyleClass().add("border-style");
 
 	        Label tenLeHoi = new Label("Tên Lễ hội: " + curSelect.getTenLeHoi());
 	        Label thoigian = new Label("Thời gian: " + curSelect.getThoigian());
@@ -126,15 +126,18 @@ public class HistoryGUI {
 	        noiDung.setWrapText(true);
 	        String strCharacter = "";
 	        Character newCharacter = new Character();
+	        if (curSelect.getCharacter() != null) {
+	        	strCharacter = curSelect.getCharacter().getTen();
+	        	for (int j = 0; j < listCharacter.size(); j++) {
 
-	        strCharacter = curSelect.getCharacter().getTen();
-	        for (int j = 0; j < listCharacter.size(); j++) {
-
-	            if (curSelect.getCharacter().getTen().toLowerCase()
-	                    .indexOf(listCharacter.get(j).getTen().toLowerCase()) != -1) {
-	                newCharacter = listCharacter.get(j);
-	            }
+		            if (curSelect.getCharacter().getTen().toLowerCase()
+		                    .indexOf(listCharacter.get(j).getTen().toLowerCase()) != -1) {
+		                newCharacter = listCharacter.get(j);
+		            }
+		        }
 	        }
+	        
+	        
 
 	        curSelect.setCharacter(newCharacter);
 	        Label Character = new Label(
@@ -149,19 +152,19 @@ public class HistoryGUI {
 
 	        VBox vbox = new VBox();
 	        HBox hbox = new HBox();
-	        hbox.setPadding(new Insets(20, 20, 20, 20));
-	        hbox.setSpacing(25);
-	        HBox picturebox = new HBox();
-	        // picturebox.setSpacing(20);
-	        picturebox.getChildren().add(imageView);
-	        picturebox.setStyle(
-	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+//	        hbox.setPadding(new Insets(20, 20, 20, 20));
+//	        hbox.setSpacing(25);
+//	        HBox picturebox = new HBox();
+//	        // picturebox.setSpacing(20);
+//	        picturebox.getChildren().add(imageView);
+//	        picturebox.setStyle(
+//	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
 	        VBox labelbox = new VBox();
 	        // labelbox.setSpacing(20);
 	        labelbox.getChildren().addAll(tenLeHoi, thoigian, diaDiem, Character);
 
-	        hbox.getChildren().addAll(picturebox, labelbox);
+	        hbox.getChildren().addAll( labelbox);
 
 	        VBox contentText = new VBox();
 	        contentText.getChildren().addAll(noiDung);
@@ -169,7 +172,6 @@ public class HistoryGUI {
 
 	        vbox.getChildren().addAll(hbox, contentText);
 	        borderPane.setCenter(vbox);
-	        picturebox.setAlignment(Pos.CENTER_LEFT);
 	        labelbox.setAlignment(Pos.BASELINE_LEFT);
 	        hbox.setAlignment(Pos.CENTER);
 	        contentText.setAlignment(Pos.CENTER);
@@ -194,17 +196,17 @@ public class HistoryGUI {
 	        Stage stage = new Stage();
 	        stage.setTitle("Các nhân vật nổi tiếng Việt Nam");
 	        Image imagebackground = new Image(
-	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+	                "https://cdn.discordapp.com/attachments/1100049349712564265/1127549029828546660/trieudaivn.jpg?width=1190&height=670");
 	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
 	                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
 	        borderPane.setBackground(new Background(backgroundImage));
 
-	        Image image = new Image(
-	                "https://media.ohay.tv/v1/upload/content/2017-05/01/1-03e8c239c32be5d42c2bd5fa63243545-ohaytv.jpg");
-	        ImageView imageView = new ImageView(image);
-	        imageView.setFitWidth(233);
-	        imageView.setFitHeight(145);
-	        imageView.getStyleClass().add("border-style");
+//	        Image image = new Image(
+//	                "https://cdn.discordapp.com/attachments/1100049349712564265/1127552062377439292/btdns.jpg");
+//	        ImageView imageView = new ImageView(image);
+//	        imageView.setFitWidth(233);
+//	        imageView.setFitHeight(145);
+//	        imageView.getStyleClass().add("border-style");
 
 	        Label ten = new Label("Họ và Tên: " + curSelect.getTen());
 	        Label queQuan = new Label("Quê Quán: " + curSelect.getQueQuan());
@@ -240,17 +242,17 @@ public class HistoryGUI {
 	        HBox hbox = new HBox();
 	        hbox.setPadding(new Insets(20, 20, 20, 20));
 	        hbox.setSpacing(25);
-	        HBox picturebox = new HBox();
-	        // picturebox.setSpacing(20);
-	        picturebox.getChildren().add(imageView);
-	        picturebox.setStyle(
-	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+//	        HBox picturebox = new HBox();
+//	        // picturebox.setSpacing(20);
+//	        picturebox.getChildren().add(imageView);
+//	        picturebox.setStyle(
+//	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
 	        VBox labelbox = new VBox();
 	        // labelbox.setSpacing(20);
 	        labelbox.getChildren().addAll(ten, queQuan, namSinh, namMat, trieuDai, ghiChu);
 
-	        hbox.getChildren().addAll(picturebox, labelbox);
+	        hbox.getChildren().addAll( labelbox);
 
 	        VBox contentText = new VBox();
 	        contentText.getChildren().addAll(ghiChu);
@@ -258,7 +260,6 @@ public class HistoryGUI {
 
 	        vbox.getChildren().addAll(hbox, contentText);
 	        borderPane.setCenter(vbox);
-	        picturebox.setAlignment(Pos.CENTER_LEFT);
 	        labelbox.setAlignment(Pos.BASELINE_LEFT);
 	        hbox.setAlignment(Pos.CENTER);
 	        contentText.setAlignment(Pos.CENTER);
@@ -289,17 +290,17 @@ public class HistoryGUI {
 	        Stage stage = new Stage();
 	        stage.setTitle("Các vị vua Việt Nam");
 	        Image imagebackground = new Image(
-	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+	                "https://cdn.discordapp.com/attachments/1100049349712564265/1127549029828546660/trieudaivn.jpg?width=1190&height=670");
 	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
 	                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
 	        borderPane.setBackground(new Background(backgroundImage));
 
-	        Image image = new Image(
-	                "https://baotanglichsu.vn/DataFiles/Uploaded/image/03-Thieu-Tri-emperor.jpg");
-	        ImageView imageView = new ImageView(image);
-	        // imageView.setStyle("-fx-border-color: red; -fx-border-width:
-	        // medium;-fx-border-style: solid;");
-	        imageView.getStyleClass().add("border-style");
+//	        Image image = new Image(
+//	                "https://baotanglichsu.vn/DataFiles/Uploaded/image/03-Thieu-Tri-emperor.jpg");
+//	        ImageView imageView = new ImageView(image);
+//	        // imageView.setStyle("-fx-border-color: red; -fx-border-width:
+//	        // medium;-fx-border-style: solid;");
+//	        imageView.getStyleClass().add("border-style");
 
 	        Label ten = new Label("Tên Vua: " + curSelect.getTen());
 	        Label namTriVi = new Label("Năm trị vì: " + curSelect.getNamTriVi());
@@ -323,24 +324,23 @@ public class HistoryGUI {
 	        HBox hbox = new HBox();
 	        hbox.setPadding(new Insets(20, 20, 20, 20));
 	        hbox.setSpacing(25);
-	        HBox picturebox = new HBox();
-	        // picturebox.setSpacing(20);
-	        picturebox.getChildren().add(imageView);
-	        picturebox.setStyle(
-	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+//	        HBox picturebox = new HBox();
+//	        // picturebox.setSpacing(20);
+//	        picturebox.getChildren().add(imageView);
+//	        picturebox.setStyle(
+//	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
 	        VBox labelbox = new VBox();
 	        // labelbox.setSpacing(20);
 	        labelbox.getChildren().addAll(ten, namTriVi, theThu, tenHuy, nienHieu, thuyHieu, mieuHieu);
 
-	        hbox.getChildren().addAll(picturebox, labelbox);
+	        hbox.getChildren().addAll(labelbox);
 
 	        VBox contentText = new VBox();
 	        contentText.getChildren().addAll(articleLink);
 
 	        vbox.getChildren().addAll(hbox, contentText);
 	        borderPane.setCenter(vbox);
-	        picturebox.setAlignment(Pos.CENTER_LEFT);
 	        labelbox.setAlignment(Pos.BASELINE_LEFT);
 	        hbox.setAlignment(Pos.CENTER);
 	        contentText.setAlignment(Pos.CENTER);
@@ -357,16 +357,16 @@ public class HistoryGUI {
 	        stage.setTitle("Di tích lịch sử Việt Nam");
 
 	        Image imagebackground = new Image(
-	                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+	                "https://cdn.discordapp.com/attachments/1100049349712564265/1127557801070313512/dtls.jpg?width=1190&height=670");
 	        BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
 	                BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
 	        borderPane.setBackground(new Background(backgroundImage));
 
-	        Image image = new Image(
-	                "https://mcdn.coolmate.me/uploads/January2022/di-tic-lich-su-viet-nam.png");
-	        ImageView imageView = new ImageView(image);
-	        imageView.setFitWidth(233);
-	        imageView.setFitHeight(145);
+//	        Image image = new Image(
+//	                "https://mcdn.coolmate.me/uploads/January2022/di-tic-lich-su-viet-nam.png");
+//	        ImageView imageView = new ImageView(image);
+//	        imageView.setFitWidth(233);
+//	        imageView.setFitHeight(145);
 	        Label name = new Label("Tên di tích: " + curSelect.getName());
 	        Label location = new Label("Địa điểm: " + curSelect.getLocation());
 	        Label type = new Label("Kiểu di tích: " + curSelect.getType());
@@ -445,17 +445,17 @@ public class HistoryGUI {
 	        HBox hbox = new HBox();
 	        hbox.setPadding(new Insets(20, 20, 20, 20));
 	        hbox.setSpacing(25);
-	        HBox picturebox = new HBox();
-	        // picturebox.setSpacing(20);
-	        picturebox.getChildren().add(imageView);
-	        picturebox.setStyle(
-	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+//	        HBox picturebox = new HBox();
+//	        // picturebox.setSpacing(20);
+//	        picturebox.getChildren().add(imageView);
+//	        picturebox.setStyle(
+//	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
 	        VBox labelbox = new VBox();
 	        // labelbox.setSpacing(20);
 	        labelbox.getChildren().addAll(name, location, type, rank, trieuDai, vua, nhanVat);
 
-	        hbox.getChildren().addAll(picturebox, labelbox);
+	        hbox.getChildren().addAll( labelbox);
 
 	        VBox contentText = new VBox();
 	        contentText.getChildren().addAll(desc);
@@ -463,7 +463,6 @@ public class HistoryGUI {
 
 	        vbox.getChildren().addAll(hbox, contentText);
 	        borderPane.setCenter(vbox);
-	        picturebox.setAlignment(Pos.CENTER_LEFT);
 	        labelbox.setAlignment(Pos.BASELINE_LEFT);
 	        hbox.setAlignment(Pos.CENTER);
 	        contentText.setAlignment(Pos.CENTER);
@@ -509,19 +508,19 @@ public class HistoryGUI {
         Stage stage = new Stage();
         stage.setTitle("Các sự kiện lịch sử");
         Image imagebackground = new Image(
-                "https://media.discordapp.net/attachments/755083836169257062/1071699179488944128/image.png?width=1190&height=670");
+                "https://cdn.discordapp.com/attachments/1100049349712564265/1127557801070313512/dtls.jpg?width=1190&height=670");
         BackgroundImage backgroundImage = new BackgroundImage(imagebackground, BackgroundRepeat.NO_REPEAT,
                 BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
         borderPane.setBackground(new Background(backgroundImage));
 
-        Image image = new Image(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDuM8-H23BUUNCV6C90QbUqbWV2iyQ7b_fQ&usqp=CAU");
-        ImageView imageView = new ImageView(image);
-        imageView.setFitWidth(233);
-        imageView.setFitHeight(145);
-        // imageView.setStyle("-fx-border-color: red; -fx-border-width:
-        // medium;-fx-border-style: solid;");
-        imageView.getStyleClass().add("border-style");
+//        Image image = new Image(
+//                "https://cdn.discordapp.com/attachments/1100049349712564265/1127549029828546660/trieudaivn.jpg");
+//        ImageView imageView = new ImageView(image);
+//        imageView.setFitWidth(233);
+//        imageView.setFitHeight(145);
+//        // imageView.setStyle("-fx-border-color: red; -fx-border-width:
+//        // medium;-fx-border-style: solid;");
+//        imageView.getStyleClass().add("border-style");
 
         Label ten = new Label("Tên Sự Kiện: " + curSelect.getTen());
         Label thoiGian = new Label("Thời gian diễn ra: " + curSelect.getThoiGian());
@@ -534,24 +533,23 @@ public class HistoryGUI {
         VBox vbox = new VBox();
         HBox hbox = new HBox();
         hbox.setPadding(new Insets(20, 20, 20, 20));
-        hbox.setSpacing(25);
-        HBox picturebox = new HBox();
-        // picturebox.setSpacing(20);
-        picturebox.getChildren().add(imageView);
-        picturebox.setStyle(
-                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
+//        hbox.setSpacing(25);
+//        HBox picturebox = new HBox();
+//        // picturebox.setSpacing(20);
+//        picturebox.getChildren().add(imageView);
+//        picturebox.setStyle(
+//                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
         VBox labelbox = new VBox();
         // labelbox.setSpacing(20);
         labelbox.getChildren().addAll(ten, thoiGian, diaDiem);
 
-        hbox.getChildren().addAll(picturebox, labelbox);
+        hbox.getChildren().addAll( labelbox);
 
         VBox contentText = new VBox();
 
         vbox.getChildren().addAll(hbox, contentText);
         borderPane.setCenter(vbox);
-        picturebox.setAlignment(Pos.CENTER_LEFT);
         labelbox.setAlignment(Pos.BASELINE_LEFT);
         hbox.setAlignment(Pos.CENTER);
         contentText.setAlignment(Pos.CENTER);

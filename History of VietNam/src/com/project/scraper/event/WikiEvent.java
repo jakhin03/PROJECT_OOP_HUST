@@ -62,7 +62,7 @@ public class WikiEvent extends AScraper implements IScraper, IDataToScrape{
 	public static void main(String args[]) throws IOException, InterruptedException {
 		WikiEvent sukien = new WikiEvent();
 		sukien.scrape();
-		String JsonURL = "src\\test.json";
+		String JsonURL = "History%20Data\\event.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
 			FileWriter writer = new FileWriter(new File(JsonURL));
