@@ -241,12 +241,6 @@ public class HistoryGUI {
 	        VBox vbox = new VBox();
 	        HBox hbox = new HBox();
 	        hbox.setPadding(new Insets(20, 20, 20, 20));
-	        hbox.setSpacing(25);
-//	        HBox picturebox = new HBox();
-//	        // picturebox.setSpacing(20);
-//	        picturebox.getChildren().add(imageView);
-//	        picturebox.setStyle(
-//	                "-fx-border-color: white; -fx-border-width: 3px; -fx-effect : dropshadow(one-pass-box,white, 5, 5, 0, 0);");
 
 	        VBox labelbox = new VBox();
 	        // labelbox.setSpacing(20);

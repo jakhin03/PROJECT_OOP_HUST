@@ -11,16 +11,7 @@ public class Event {
 	private Dynasty nienDai;
 	private Character nhanVatLienQuan;
 
-	/*
-	 * public SuKien(String ten, String thoi_gian, String dia_diem,
-	 * HistoricalDynasty nien_dai, HistoricalFigure nhan_vat_lien_quan) {
-	 * this.ten = ten;
-	 * this.thoi_gian = thoi_gian;
-	 * this.dia_diem = dia_diem;
-	 * this.nien_dai = nien_dai;
-	 * this.nhan_vat_lien_quan = nhan_vat_lien_quan;
-	 * }
-	 */
+
 	public String getTen() {
 		return ten;
 	}
