@@ -7,6 +7,7 @@ import com.project.scraper.IDataSynthesis;
 import com.project.scraper.dynasty.FullDynasty;
 import com.project.scraper.event.EventScraping;
 import com.project.scraper.figure.KingScrape;
+import com.project.scraper.relic.*;
 
 
 public class FullScrape implements IDataSynthesis {
@@ -16,7 +17,7 @@ public class FullScrape implements IDataSynthesis {
 	private com.project.scraper.figure.FullScrape figure;
 	private EventScraping event;
 	
-	public ScrapeFull() throws JsonIOException, IOException {
+	public void ScrapeFull() throws JsonIOException, IOException {
 		king = new KingScrape();
 		relic = new RelicScrapeFull();
 		figure = new com.project.scraper.figure.FullScrape();
