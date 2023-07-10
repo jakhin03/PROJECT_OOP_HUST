@@ -15,13 +15,14 @@ import com.project.historydatabase.relic.Relic;
 import com.project.historydatabase.figure.Character;
 import com.project.historydatabase.figure.King;
 import com.project.historydatabase.dynasty.Dynasty;
+import com.project.scraper.datalinking.*;
 
 public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 
 	private LinkedList<Relic> relics;
 	private int lienKetKing = 0;
 	private int lienKetDynasty = 0;
-	private int lienKetFigure = 0;
+	private int lienKetCharacter = 0;
 	
 	public RelicDiTichCrawler() throws IOException {
 		relics = new LinkedList<Relic>();
@@ -41,8 +42,8 @@ public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 
 
 
-	public int getLienKetFigure() {
-		return lienKetFigure;
+	public int lienKetCharacter() {
+		return lienKetCharacter;
 	}
 
 
@@ -74,7 +75,7 @@ public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 	public void synthesis() throws IOException {
 		LinkRelicWithFigureAndDynasty linkRelic = new LinkRelicWithFigureAndDynasty();
 
-		String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId="; // 6193 - 1865
+		String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId="; 
 		for (int i = 1865; i <= 6139; i++) {
 
 			String url = baseUrl + Integer.toString(i);
@@ -98,7 +99,7 @@ public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 
 				lienKetDynasty += linkRelic.getLienKetDynasty();
 				lienKetKing += linkRelic.getLienKetKing();
-				lienKetFigure += linkRelic.getLienKetFigure();
+				lienKetCharacter += linkRelic.getLienKetCharacter();
 
 				Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, characters, kings,
 						dynastys);
@@ -107,7 +108,7 @@ public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 
 		}
 		System.out.println(lienKetDynasty);
-		System.out.println(lienKetFigure);
+		System.out.println(lienKetCharacter);
 		System.out.println(lienKetKing);
 	}
 }
