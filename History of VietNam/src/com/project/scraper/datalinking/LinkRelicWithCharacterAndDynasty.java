@@ -17,7 +17,7 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-public class LinkRelicWithFigureAndDynasty extends DataLinking {
+public class LinkRelicWithCharacterAndDynasty extends DataLinking {
 	private LinkedList<Character> characters;
 	private LinkedList<King> kings;
 	private LinkedList<Dynasty> dynastys;
@@ -37,7 +37,7 @@ public class LinkRelicWithFigureAndDynasty extends DataLinking {
 	        return result;
 	    }
 	}
-	public LinkRelicWithFigureAndDynasty() throws IOException {
+	public LinkRelicWithCharacterAndDynasty() throws IOException {
 		listObservablesCharacter = new ReadData<Character>()
 				.FromJsonToArray("src/data/figureUpdate.json", Character.class);
 
@@ -155,7 +155,7 @@ public class LinkRelicWithFigureAndDynasty extends DataLinking {
 		return lienKetCharacter;
 	}
 
-	public LinkedList<Character> getFigures() {
+	public LinkedList<Character> getCharacters() {
 		return characters;
 	}
 
