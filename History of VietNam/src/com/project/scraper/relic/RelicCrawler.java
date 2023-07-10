@@ -1,4 +1,4 @@
-package webcrawler.relic;
+package com.project.scraper.relic;
 
 import java.io.File;
 import java.io.FileWriter;
