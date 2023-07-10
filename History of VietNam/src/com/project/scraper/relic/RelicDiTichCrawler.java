@@ -8,18 +8,23 @@ import java.util.LinkedList;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
-import com.project.scraper.AScraper;
-import com.project.scraper.IScraper;
-import com.project.scraper.event.IDataToScrape;
+import com.project.scraper.IDataSynthesis;
+import com.project.utils.IWriteToJson;
 
-public class RelicCrawler extends AScraper implements IScraper, IDataToScrape {
+import com.project.historydatabase.relic.Relic;
+import com.project.historydatabase.figure.Character;
+import com.project.historydatabase.figure.King;
+import com.project.historydatabase.dynasty.Dynasty;
+import com.project.scraper.datalinking.*;
+
+public class RelicDiTichCrawler implements IWriteToJson, IDataSynthesis {
 
 	private LinkedList<Relic> relics;
 	private int lienKetKing = 0;
 	private int lienKetDynasty = 0;
-	private int lienKetFigure = 0;
+	private int lienKetCharacter = 0;
 	
-	public RelicScrapeDiTich() throws IOException {
+	public RelicDiTichCrawler() throws IOException {
 		relics = new LinkedList<Relic>();
 	}
 
@@ -37,13 +42,13 @@ public class RelicCrawler extends AScraper implements IScraper, IDataToScrape {
 
 
 
-	public int getLienKetFigure() {
-		return lienKetFigure;
+	public int lienKetCharacter() {
+		return lienKetCharacter;
 	}
 
 
-
-	public void writeJSon() throws JsonIOException, IOException {
+	@Override
+	public void writeToJson() throws JsonIOException, IOException {
 		String filePath = "D:\\relic_new.json";
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
@@ -57,9 +62,9 @@ public class RelicCrawler extends AScraper implements IScraper, IDataToScrape {
 	}
 
 	public static void main(String[] args) throws JsonIOException, IOException {
-		RelicScrapeDiTich rd = new RelicScrapeDiTich();
-		rd.combine();
-		rd.writeJSon();
+		RelicDiTichCrawler relicScrape = new RelicDiTichCrawler();
+		relicScrape.synthesis();
+		relicScrape.writeToJson();
 	}
 
 	public LinkedList<Relic> getRelics() {
@@ -67,15 +72,15 @@ public class RelicCrawler extends AScraper implements IScraper, IDataToScrape {
 	}
 
 	@Override
-	public void combine() throws IOException {
+	public void synthesis() throws IOException {
 		LinkRelicWithFigureAndDynasty linkRelic = new LinkRelicWithFigureAndDynasty();
 
-		String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId="; // 6193 - 1865
+		String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId="; 
 		for (int i = 1865; i <= 6139; i++) {
 
 			String url = baseUrl + Integer.toString(i);
-			RelicScrapeDiTichOnePage r = new RelicScrapeDiTichOnePage(url);
-			r.scraping();
+			RelicDiTichPageCrawler r = new RelicDiTichPageCrawler(url);
+			r.scrape();
 			if (r.getName().strip() != "") {
 				System.out.println(i);
 				System.out.println(r.getName());
@@ -88,22 +93,22 @@ public class RelicCrawler extends AScraper implements IScraper, IDataToScrape {
 				linkRelic.setLienKetKing(0);
 				
 				linkRelic.genLink(tenNguoiTho);
-				LinkedList<Figure> figures = linkRelic.getFigures();
+				LinkedList<Character> characters = linkRelic.getFigures();
 				LinkedList<King> kings = linkRelic.getKings();
 				LinkedList<Dynasty> dynastys = linkRelic.getDynastys();
 
 				lienKetDynasty += linkRelic.getLienKetDynasty();
 				lienKetKing += linkRelic.getLienKetKing();
-				lienKetFigure += linkRelic.getLienKetFigure();
+				lienKetCharacter += linkRelic.getLienKetCharacter();
 
-				Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, figures, kings,
+				Relic r1 = new Relic(r.getName(), r.getAddress(), r.getType(), r.getRank(), tenNguoiTho, characters, kings,
 						dynastys);
 				relics.add(r1);
 			}
 
 		}
 		System.out.println(lienKetDynasty);
-		System.out.println(lienKetFigure);
+		System.out.println(lienKetCharacter);
 		System.out.println(lienKetKing);
 	}
 }
